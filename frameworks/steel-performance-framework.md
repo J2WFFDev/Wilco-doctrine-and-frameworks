@@ -14,6 +14,7 @@ related_documents:
   - "doctrine/master-doctrine.md"
   - "doctrine/terminology.md"
   - "drills/steel-drill-catalog.md"
+  - "frameworks/steel-baseline-assessment.md"
 canonical_terminology: "doctrine/terminology.md"
 tags:
   - framework
@@ -164,6 +165,8 @@ Establish a consistent equipment baseline for each athlete before tracking perfo
 | 6 | Stop plate hit rate | Stage completion reliability |
 
 Lower tier numbers reflect outcome metrics. Higher tier numbers reflect process metrics. **Process metrics drive outcome metrics.** Coach focus should be on Tiers 3–6 first.
+
+For isolated component measurement of each tier — establishing a personal baseline and tracking progression — see the [Steel Challenge Baseline Assessment Protocol](steel-baseline-assessment.md).
 
 ---
 

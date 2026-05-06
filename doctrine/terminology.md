@@ -110,6 +110,28 @@ A strategic planning framework used at the program level for seasonal planning a
 | **Strategy** | The approach taken to reach the goal |
 | **Measure** | How progress and success are tracked |
 
+### Split Time
+The elapsed time between consecutive shot breaks during rapid fire on a single target. Measured from one shot break to the next. Split time reflects the combined time of trigger reset, trigger prep, and the shot break — the core mechanical speed of the shooter's trigger cycle.
+
+### Initial Shot Time (IST)
+The elapsed time from the start signal (audible beep) to the first shot break. IST includes the athlete's neurological reaction time plus any presentation movement required (e.g., from low-ready or from holster). IST is recorded separately from subsequent split times.
+
+### Reaction Time
+The neurological component of the Initial Shot Time — the delay between receiving the start signal and the beginning of a physical response. Calculated by subtracting the average split time (or fastest split time) from the Initial Shot Time. Reaction time cannot be measured directly; it is derived from the difference between IST and the shooter's mechanical trigger speed.
+
+> **Formula:** Reaction Time = IST − Average Split Time
+
+### Transition Time
+The elapsed time from the shot break on one target to the shot break on the next target. Transition time captures the full movement cycle: muzzle departure, travel, arrival, and the trigger cycle on the new target. Measured by direction (left-to-right and right-to-left) because body geometry can produce asymmetric results.
+
+### Theoretical Stage Time
+A calculated estimate of a complete stage string time, derived by combining the athlete's measured performance components — Initial Shot Time, Transition Time, and trigger cycle time — applied to a specific stage layout. Theoretical Stage Time can be modeled in serial or parallel execution:
+
+- **Serial model:** IST + (Transitions × Avg Transition Time) + (Follow-on shots × Avg Trigger Press Time)
+- **Parallel model:** IST + (Transitions × max(Avg Transition Time, Fastest Trigger Press Time))
+
+Parallel execution compresses time by overlapping trigger prep into the transition movement. See [frameworks/execution-models.md](../frameworks/execution-models.md) and [frameworks/steel-baseline-assessment.md](../frameworks/steel-baseline-assessment.md) for full methodology.
+
 ---
 
 ## Equipment & Condition Terms

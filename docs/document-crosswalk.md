@@ -85,7 +85,8 @@ Use this when:
 | Steel Challenge execution model | `frameworks/steel-performance-framework.md` | `drills/steel-drill-catalog.md` | Do not describe execution model in the drill catalog |
 | Run classification system | `frameworks/steel-performance-framework.md` + definitions in `doctrine/terminology.md` | `guides/coach-guide.md`, `drills/steel-drill-catalog.md` | Guides should link, not define |
 | Performance components (Technical / Mental / Physical) | `frameworks/steel-performance-framework.md` | `guides/coach-guide.md`, `drills/steel-drill-catalog.md` | Do not duplicate component definitions in drill notes |
-| Metrics hierarchy (Tiers 1–6) | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed) | Analytics framework |
+| Metrics hierarchy (Tiers 1–6) | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed), `frameworks/steel-baseline-assessment.md` | Analytics framework |
+| **Isolated component baseline assessment (IST, split time, transition time, theoretical stage time)** | `frameworks/steel-baseline-assessment.md` | `frameworks/steel-performance-framework.md`, `frameworks/execution-models.md` | Do not duplicate test protocol in the steel framework or drill catalog |
 | Environment and bio-condition tracking | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed) | Analytics framework |
 | Equipment baseline tracking | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed) | Coach guide |
 | **Serial vs. parallel execution model** | `frameworks/execution-models.md` | `frameworks/steel-performance-framework.md`, `drills/steel-drill-catalog.md` | Do not describe in drill notes |
@@ -105,6 +106,7 @@ Use this when:
 | Topic | Canonical Home | Also Referenced In | Watch For Drift |
 |-------|---------------|-------------------|----------------|
 | Drill structure/format | `templates/drill-template.md` | `drills/steel-drill-catalog.md`, `drills/precision-drill-catalog.md` | All drill files |
+| **Baseline assessment data capture (raw timer data, calculations, historical tracking)** | `templates/steel-baseline-assessment-log.md` | `frameworks/steel-baseline-assessment.md` | Do not duplicate the form fields in the framework document |
 | Steel Challenge drills (library) | `drills/steel-drill-catalog.md` | `frameworks/steel-performance-framework.md` (references catalog) | Do not define drills in the framework |
 | Performance standards per stage | `drills/steel-drill-catalog.md` | `guides/athlete-handbook.md` | Coach guide |
 | Precision/Bullseye drills | `drills/precision-drill-catalog.md` *(stub)* | `frameworks/precision-performance-framework.md` | TBD |
@@ -176,6 +178,7 @@ These topics are mentioned in existing documents but have no canonical home yet:
 | OGSM planning (program level) | `frameworks/analytics-framework.md` | Referenced in terminology |
 | Session log template / format | `templates/shooter-performance-log.md` *(stub exists)* | Template created — expand with coaching examples |
 | Coach feedback examples and journal prompts | `templates/shooter-performance-log.md` | Stub section exists |
+| **Benchmark tables by division/class for baseline assessment components** | `frameworks/steel-baseline-assessment.md` | Transition time and first-shot time benchmarks not yet established — gather data from assessed athletes |
 | Seasonal planning process | `doctrine/governance.md` or `guides/coach-guide.md` | TBD |
 | Precision execution model | `frameworks/precision-performance-framework.md` | Stub only |
 | Group analysis methodology | `frameworks/precision-performance-framework.md` | Stub only |

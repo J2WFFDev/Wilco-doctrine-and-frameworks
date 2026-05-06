@@ -1,0 +1,302 @@
+---
+title: "Steel Challenge Baseline Assessment Protocol"
+document_type: "framework"
+status: "draft"
+version: "0.1"
+last_updated: "2026-05-06"
+author: "Coach Jim West"
+organization: "Wilco Shooting Sports"
+audience:
+  - coaches
+  - athletes
+summary: "A three-test isolated component assessment protocol for Steel Challenge athletes. Measures reaction time, trigger cycle speed, transition speed, and presentation time independently, then combines them into a Theoretical Stage Time model. Establishes a personal performance baseline and tracks progression over time."
+related_documents:
+  - "frameworks/steel-performance-framework.md"
+  - "frameworks/execution-models.md"
+  - "frameworks/impact-assessment-model.md"
+  - "doctrine/terminology.md"
+  - "templates/steel-baseline-assessment-log.md"
+canonical_terminology: "doctrine/terminology.md"
+tags:
+  - framework
+  - steel-challenge
+  - assessment
+  - baseline
+  - metrics
+  - draft
+---
+
+# Steel Challenge Baseline Assessment Protocol
+
+> **Canonical terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
+>
+> **Data capture form:** [templates/steel-baseline-assessment-log.md](../templates/steel-baseline-assessment-log.md)
+
+---
+
+## Purpose
+
+This protocol isolates and measures the individual components of the Steel Challenge shooting sequence. Rather than analyzing a complete stage run, each test is designed to produce a clean measurement of one component at a time — free from the interference of other variables.
+
+The resulting measurements serve three purposes:
+
+1. **Establish a personal baseline** against known benchmark ranges for skill level
+2. **Direct coaching focus** toward the component with the highest development leverage
+3. **Track progression** by repeating assessments at intervals and comparing results over time
+
+This protocol does not replace run classification or in-session coaching. It supplements them with quantified, comparable data.
+
+> **Principle:** A stage time is the sum of its components. Improvement in any component improves stage time. Improvement across multiple components compounds. Understanding which components are weak directs effort efficiently.
+
+---
+
+## Equipment Requirements
+
+- Shot timer with par-time capability (audible start signal)
+- Target array appropriate to each test (described per test)
+- Loaded magazines — at least one full magazine per test run
+- Athlete in full competition-legal gear (holster, belt, firearm — same setup used in matches)
+- Coach or training partner to record times
+
+---
+
+## Test 1: Trigger Speed Test (Rapid Fire)
+
+### Purpose
+
+Isolate the athlete's trigger mechanics from all other variables. Measure:
+
+- **Initial Shot Time (IST)** — reaction time plus the mechanical response to the beep
+- **Split Times** — the trigger cycle speed between consecutive shots
+- **Average Split Time** — the athlete's sustainable mechanical pace
+- **Fastest Split Time** — the athlete's mechanical ceiling
+- **Reaction Time** — the neurological component of IST, derived by calculation
+
+### Setup
+
+- One target at close range (5–7 yards); no accuracy requirement beyond keeping all rounds on target
+- Firearm loaded with a full magazine; firearm aimed at the target; finger on trigger
+- Shooter is at the line, ready; no holster draw involved
+- Shot timer positioned to capture all shots
+
+### Procedure
+
+1. Athlete establishes grip, stance, and sight picture — finger on trigger, aimed at target
+2. Coach signals to timer operator: "Ready"
+3. On the beep, athlete fires every round in the magazine as fast as possible, keeping all rounds in the general target area
+4. Timer captures the full string; coach records all split times as displayed on the timer
+5. Repeat 2–3 times; use the best run for primary analysis, record all runs for context
+
+### Measurements Recorded
+
+| Measurement | How Recorded |
+|-------------|-------------|
+| Initial Shot Time (IST) | Time from beep to first shot break |
+| Split times (all) | Time between each consecutive shot break |
+| Total shots fired | Count from the string |
+| Total string time | Time from beep to last shot break |
+
+### Calculations
+
+| Calculation | Formula |
+|-------------|---------|
+| Average Split Time | Sum of all split times ÷ number of splits |
+| Fastest Split Time | The lowest single split time recorded |
+| Reaction Time | IST − Average Split Time |
+
+> **Note on Reaction Time:** The average split time represents the athlete's mechanical trigger cycle time at pace. Subtracting it from the IST removes the mechanical component, leaving the neurological reaction delay. This is an approximation — not a laboratory measurement — but it is consistent and comparable across sessions.
+
+### Benchmark Classifications
+
+| Classification | Average Split Time |
+|---------------|-------------------|
+| World Class / Elite | 0.12–0.13 sec |
+| Senior | Below 0.20 sec |
+| Intermediate | 0.20–0.30 sec |
+| Rookie / Foundation | 0.30–0.50 sec |
+
+> These benchmarks reflect the sustained pace during rapid fire on a single target. They are not stage split times, which include transitions. Use these ranges for component-level diagnosis only.
+
+---
+
+## Test 2: Transition Speed Test
+
+### Purpose
+
+Isolate the athlete's lateral movement speed across a wide stage array. Measure:
+
+- **Transition Time by direction** (left-to-right and right-to-left)
+- **Directional asymmetry** — which direction is faster, and by how much
+
+This reveals whether body geometry, stance orientation, or dominant-side mechanics favor one direction, and informs positioning and footwork adjustments.
+
+### Setup
+
+- Wide stage with targets at the far left and far right of the array (a stage like *Focus* works well; targets should be separated by the full lateral range of a typical Steel Challenge stage)
+- Firearm loaded; aimed at the starting target; finger on trigger
+- Shooter at the line in competition stance
+- Shot timer ready
+
+### Procedure
+
+1. Athlete aims at the far-left target, finger on trigger, firearm ready
+2. On beep, fire one round at the far-left target, immediately transition to the far-right target, fire one round
+3. Record the total time from beep to second shot break
+4. Subtract the athlete's IST (from Test 1) from the total time — the remainder is the Transition Time
+5. Repeat 3–4 runs in this direction; average the results
+6. Reverse: start aimed at far-right target, transition left; repeat 3–4 runs; average
+
+> **Note on accuracy:** Hits are not required for this test. The athlete should fire in the general direction of each target. The purpose is speed measurement only. If accuracy significantly degrades, note it — it may indicate the athlete is pushing beyond a controlled threshold.
+
+### Measurements Recorded
+
+| Measurement | How Recorded |
+|-------------|-------------|
+| Total time per run (beep to 2nd shot) | From shot timer |
+| Direction of each run (L→R or R→L) | Noted by coach |
+
+### Calculations
+
+| Calculation | Formula |
+|-------------|---------|
+| Transition Time (per run) | Total run time − IST (from Test 1) |
+| Average Transition Time (L→R) | Average of all L→R transition times |
+| Average Transition Time (R→L) | Average of all R→L transition times |
+| Overall Average Transition Time | Average of all runs across both directions |
+| Directional Advantage | Identify which direction is consistently faster |
+
+---
+
+## Test 3: Low-Ready First Shot Test
+
+### Purpose
+
+Measure the time from low-ready position — firearm already drawn and held at low ready, not from holster — to the first shot break. This isolates the **presentation** component: how quickly the athlete can raise the firearm onto target and fire from a ready position.
+
+Combined with IST from Test 1, this gives a complete picture of the draw-to-fire sequence without the holster variable.
+
+### Setup
+
+- One target at match-typical distance (7–10 yards)
+- Firearm loaded; held in low-ready position (firearm pointed down at approximately 45°, grip established, finger outside trigger guard)
+- Shot timer ready
+
+### Procedure
+
+1. Athlete establishes low-ready position
+2. On beep, raise to target and fire one shot
+3. Record elapsed time from beep to shot break
+4. Repeat 4–5 times; average all runs; note fastest run
+
+### Measurements Recorded
+
+| Measurement | How Recorded |
+|-------------|-------------|
+| Time from beep to shot break (per run) | From shot timer |
+
+### Calculations
+
+| Calculation | Formula |
+|-------------|---------|
+| Average Low-Ready First Shot Time | Sum of all runs ÷ number of runs |
+| Fastest Low-Ready First Shot Time | Lowest single run time |
+
+---
+
+## Composite Analysis: Theoretical Stage Time
+
+### Overview
+
+Once the three tests are complete, the individual components can be combined to calculate a **Theoretical Stage Time** for a given stage layout. This model shows how the athlete's measured components would add up if performed in sequence.
+
+The model has two versions:
+
+- **Serial model:** Each sub-task completes before the next begins — the baseline for less experienced athletes
+- **Parallel model:** Trigger prep overlaps with muzzle transition — the model for intermediate and senior athletes executing prep-during-movement
+
+For a full explanation of serial and parallel execution, see [frameworks/execution-models.md](../frameworks/execution-models.md).
+
+### Formula
+
+For a stage with **N targets** (one shot per target):
+
+| Model | Formula |
+|-------|---------|
+| **Serial** | Low-Ready IST + (N−1) × Avg Transition Time + (N−1) × Avg Split Time |
+| **Parallel** | Low-Ready IST + (N−1) × max(Avg Transition Time, Fastest Split Time) |
+
+> **Why (N−1):** The first shot is captured in the IST. Each subsequent shot requires one transition and one trigger cycle. For 5 targets, there are 4 transitions and 4 additional trigger cycles.
+
+### Example Calculation
+
+Using the following measured values:
+
+| Component | Value |
+|-----------|-------|
+| Low-Ready First Shot Time | 0.54 sec |
+| Average Split Time (trigger cycle) | 0.25 sec |
+| Fastest Split Time (trigger cycle) | 0.15 sec |
+| Average Transition Time | 0.41 sec |
+| Derived Reaction Time | 0.07 sec |
+
+**For a 5-target stage (e.g., Smoke and Hope):**
+
+| Model | Calculation | Result |
+|-------|-------------|--------|
+| Serial | 0.54 + (4 × 0.41) + (4 × 0.25) | **3.18 sec** |
+| Parallel | 0.54 + (4 × 0.41) | **2.18 sec** |
+
+> **Interpretation:** The novice athlete performing all tasks in serial, with some additional hesitation and unaccounted latency between sub-tasks, produces a typical string time in the range of 3.4–3.6 seconds — consistent with observed novice performance. As the athlete's individual components improve and parallel execution is introduced, the theoretical time compresses toward the parallel model floor.
+
+### Component Improvement Impact
+
+Each component that improves reduces stage time proportionally:
+
+| Component improved | Effect on a 5-target stage |
+|--------------------|---------------------------|
+| Avg Split Time −0.05 sec | −0.20 sec per string |
+| Avg Transition Time −0.05 sec | −0.20 sec per string |
+| Low-Ready IST −0.05 sec | −0.05 sec per string |
+| Serial → Parallel execution | −0.40 to −1.00 sec per string (variable) |
+
+> **Coaching implication:** Transition time and split time improvements have equal impact on serial stage time. The single largest gain comes from introducing parallel execution — but only once split times are consistently below the transition time threshold.
+
+---
+
+## Tracking and Progression
+
+### Reassessment Frequency
+
+| Context | Frequency |
+|---------|-----------|
+| Active training athlete | Every 4–6 weeks |
+| Competition season | Before season begins and mid-season |
+| Following equipment change | Immediately after change, then 2 weeks later |
+| Following a coaching intervention targeting a specific component | 2–3 weeks after intervention |
+
+### What to Track Over Time
+
+For each assessment date, record and compare:
+
+- IST
+- Average and fastest split time
+- Derived reaction time
+- Average transition time (by direction and overall)
+- Average and fastest low-ready first shot time
+- Theoretical stage time (serial and parallel)
+- Benchmark classification for split time
+
+Plotting these values across dates reveals which components are improving, which are plateauing, and whether the athlete is converging toward parallel execution efficiency.
+
+### Comparison Dimensions
+
+This protocol supports comparison across:
+
+- **Dates** — longitudinal progression for one athlete
+- **Directions** — left-to-right vs. right-to-left asymmetry
+- **Division/class ranges** — comparing individual component values against others in the same division
+- **Benchmark standards** — placing each component against the known ranges (World Class / Senior / Intermediate / Rookie)
+
+---
+
+*Wilco Shooting Sports · Steel Challenge Baseline Assessment Protocol v0.1 · Draft*
