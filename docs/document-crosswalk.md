@@ -95,6 +95,8 @@ Use this when:
 | **Visualization, VR, airgun, dry-fire tools** | `frameworks/preparation-framework.md` | `guides/athlete-handbook.md`, `guides/coach-guide.md` | Athlete handbook links, does not define |
 | Precision/Bullseye execution model | `frameworks/precision-performance-framework.md` *(stub)* | `drills/precision-drill-catalog.md` *(stub)* | TBD |
 | Data collection and metrics reporting | `frameworks/analytics-framework.md` *(stub)* | All frameworks | TBD |
+| **Archery performance model** | `frameworks/archery-performance-framework.md` *(reserved)* | TBD — when program initiated | Reserved — do not add content until program is formally established |
+| **Shotgun performance model** | `frameworks/shotgun-performance-framework.md` *(reserved)* | TBD — when program initiated | Reserved — do not add content until program is formally established |
 
 ---
 
@@ -117,6 +119,13 @@ Use this when:
 | Parent role and conduct | `guides/parent-guide.md` | `doctrine/philosophy.md` (philosophy section), `guides/athlete-handbook.md` | Parent guide owns the role definition |
 | Coaching practices and feedback model | `guides/coach-guide.md` | `doctrine/philosophy.md` (philosophy), `doctrine/master-doctrine.md` (summary) | Philosophy.md owns the "why"; coach-guide.md owns the "how" |
 | Volunteer roles and responsibilities | `guides/volunteer-guide.md` | `operations/match-operations.md` (RO procedures overlap) | Volunteer guide defines roles; operations owns procedures |
+| **Head Coach program leadership** | `guides/head-coach-guide.md` | `guides/coach-guide.md`, `guides/match-coach-guide.md` | Coach guide owns day-to-day coaching; head coach guide owns program-level responsibilities |
+| **Match Coach role (vs. Practice and Head Coach)** | `guides/match-coach-guide.md` | `guides/head-coach-guide.md`, `frameworks/preparation-framework.md` | Match coaching is execution support — not technique development |
+| **RSO role, qualifications, and authority** | `guides/range-safety-officer-guide.md` | `operations/match-operations.md`, `operations/range-safety-plan.md` | Match operations owns procedures; RSO guide owns the role and authority |
+| **Scorekeeper role and data accuracy** | `guides/scorekeeper-guide.md` | `operations/match-operations.md`, `operations/match-director-guide.md` | Match score technician (data systems) is distinct from scorekeeper (field recorder) |
+| **Sponsor relationships and tiers** | `guides/sponsor-guide.md` | `CREDITS.md` | One location for sponsor policies |
+| **Visitors guide (first-time guests)** | `guides/visitors-guide.md` | `guides/new-shooter-orientation.md` | Visitors guide is for observers; orientation is for incoming athletes/families |
+| **New shooter orientation** | `guides/new-shooter-orientation.md` | `guides/athlete-handbook.md`, `guides/parent-guide.md` | Orientation is the entry point; handbooks are the ongoing reference |
 
 ---
 
@@ -127,11 +136,18 @@ Use this when:
 | The four fundamental safety rules | `doctrine/master-doctrine.md` (summary) + `operations/safety-manual.md` (full) | `guides/volunteer-guide.md`, `operations/range-operations.md` | Do not add a third copy in guides |
 | Cease fire procedures | `operations/safety-manual.md` | `guides/volunteer-guide.md` | Guide should link, not restate |
 | Safety violation policy | `operations/safety-manual.md` | `doctrine/master-doctrine.md` (summary only) | Safety manual owns the policy |
-| Emergency procedures | `operations/safety-manual.md` | `operations/range-operations.md` (closing checklist reference) | One location only |
+| Emergency procedures | `operations/safety-manual.md` | `operations/range-safety-plan.md` (site-specific application) | Safety manual owns policy; range safety plan owns site-specific steps |
+| **Site-specific range safety (layout, roles, emergency steps)** | `operations/range-safety-plan.md` | `operations/safety-manual.md`, `guides/range-safety-officer-guide.md` | Safety manual is the policy; range safety plan is the site-specific application |
 | Match-day coordinator checklist | `operations/match-operations.md` | `guides/volunteer-guide.md` | Volunteer guide describes roles; match-operations.md owns the checklist |
-| Range commands | `operations/match-operations.md` | `guides/volunteer-guide.md` (RO section) | Match-operations.md is the source; volunteer guide links |
+| Range commands | `operations/match-operations.md` | `guides/volunteer-guide.md`, `guides/range-safety-officer-guide.md` | Match-operations.md is the source; guides link |
 | Range setup / teardown | `operations/range-operations.md` | `operations/match-operations.md` (match-specific subset) | Range-operations.md is the broader source |
-| Equipment inventory and maintenance log | `operations/range-operations.md` | | |
+| **Program equipment and supply tracking** | `operations/inventory-management.md` | `operations/range-operations.md` | One inventory system — do not maintain parallel lists |
+| **Match Director and AMD authority** | `operations/match-director-guide.md` | `operations/match-operations.md`, `operations/event-management.md` | Match operations owns checklists; match director guide owns roles and authority |
+| **Match committees (Range Prep, Startup, Awards, Teardown)** | `operations/match-director-guide.md` | `operations/event-management.md` | Match director guide owns committee structure |
+| **Score arbitration and rules interpretation** | `operations/match-director-guide.md` | `guides/scorekeeper-guide.md` | Scorekeeper owns field data; match director guide owns dispute resolution |
+| **Match Score Technician role** | `operations/match-director-guide.md` | `guides/scorekeeper-guide.md` | Distinct roles — do not collapse |
+| **Event type catalog and operational profiles** | `operations/event-management.md` | All operations documents | Event management owns the event type taxonomy |
+| **Squad assembly and competitor assignment** | `operations/match-organizer.md` | `operations/match-operations.md`, `operations/match-director-guide.md` | Match organizer owns squad assembly; match director owns match authority |
 
 ---
 
@@ -158,7 +174,8 @@ These topics are mentioned in existing documents but have no canonical home yet:
 | Topic | Expected Canonical Home | Notes |
 |-------|------------------------|-------|
 | OGSM planning (program level) | `frameworks/analytics-framework.md` | Referenced in terminology |
-| Session log template / format | `frameworks/analytics-framework.md` or a `templates/` file | Bio-condition tracking referenced in frameworks |
+| Session log template / format | `templates/shooter-performance-log.md` *(stub exists)* | Template created — expand with coaching examples |
+| Coach feedback examples and journal prompts | `templates/shooter-performance-log.md` | Stub section exists |
 | Seasonal planning process | `doctrine/governance.md` or `guides/coach-guide.md` | TBD |
 | Precision execution model | `frameworks/precision-performance-framework.md` | Stub only |
 | Group analysis methodology | `frameworks/precision-performance-framework.md` | Stub only |
@@ -167,11 +184,18 @@ These topics are mentioned in existing documents but have no canonical home yet:
 | Mental performance (reflection timing, emotional recovery, confidence collapse) | `doctrine/philosophy.md` or new `frameworks/mental-performance.md` | Currently surface-level only |
 | Metrics philosophy (metrics serving development, not replacing sportsmanship) | `frameworks/analytics-framework.md` | Covered in master-doctrine; needs its own section in analytics |
 | AI workflow prompt templates | `docs/ai-workflow.md` | Stub section exists |
+| Sponsor impact report template | `guides/sponsor-guide.md` or `templates/` | Referenced in sponsor guide |
+| New shooter orientation presentation | `assets/presentations/` | Referenced in new-shooter-orientation.md |
+| Incident report form | `operations/safety-manual.md` or `templates/` | Referenced in range-safety-plan.md |
+| Score dispute form | `operations/match-director-guide.md` or `templates/` | Referenced in match director guide |
+| Squad assignment tool / template | `operations/match-organizer.md` or `templates/` | Referenced in match organizer |
+| Inventory master list (spreadsheet) | `assets/inventory/inventory-master.xlsx` | Referenced in inventory management |
 | Diagram: PARR loop | `assets/diagrams/` | Not yet created |
 | Diagram: Serial vs. parallel execution | `assets/diagrams/` | Not yet created |
 | Diagram: Documentation hierarchy | `assets/diagrams/` | Not yet created |
 | Diagram: Athlete development pathway | `assets/diagrams/` | Not yet created |
 | Diagram: Preparation layers | `assets/diagrams/` | Not yet created |
+| Diagram: Range layout | `assets/diagrams/range-layout.pdf` | Referenced in range-safety-plan.md |
 
 ---
 

@@ -110,6 +110,7 @@ For small fixes (typos, formatting), you may commit directly to `main`.
 ```
 README.md                              ← This file
 CONTRIBUTING.md                        ← Contribution rules, ownership, workflow
+CREDITS.md                             ← Authors, contributors, and organizational attribution
 docs/
   document-crosswalk.md                ← Concept map: where each topic lives canonically
   docs-architecture.md                 ← 3-tier architecture and Why vs. How separation
@@ -121,27 +122,43 @@ doctrine/
   governance.md                        ← Document hierarchy, versioning, GitHub editorial workflow
 frameworks/
   steel-performance-framework.md       ← Steel Challenge execution model and performance system
-  precision-performance-framework.md   ← Precision/NRA Bullseye performance framework
+  precision-performance-framework.md   ← Precision/NRA Bullseye performance framework (stub)
   execution-models.md                  ← Serial vs. parallel execution; cognitive/mechanical overlap
   impact-assessment-model.md           ← Visual, audible, predictive, index/feel, hybrid assessment
   preparation-framework.md             ← Match, stage, and string preparation layering
-  analytics-framework.md               ← Data collection, metrics, and reporting structure
+  analytics-framework.md               ← Data collection, metrics, and reporting (stub)
+  archery-performance-framework.md     ← Archery framework (reserved — not yet active)
+  shotgun-performance-framework.md     ← Shotgun framework (reserved — not yet active)
 guides/
   athlete-handbook.md                  ← Athlete expectations, routines, and competition prep
   parent-guide.md                      ← Parent roles, expectations, and team culture
-  coach-guide.md                       ← Coaching practices, planning, and communication
+  coach-guide.md                       ← Day-to-day coaching practices, planning, and communication
+  head-coach-guide.md                  ← Head Coach program leadership and coach development
+  match-coach-guide.md                 ← Match-day athlete support; distinct from practice coaching
   volunteer-guide.md                   ← Volunteer roles, setup, and range safety responsibilities
+  range-safety-officer-guide.md        ← RSO role, qualifications, authority, and procedures
+  scorekeeper-guide.md                 ← Scorekeeper role, data accuracy, and dispute escalation
+  sponsor-guide.md                     ← Sponsor tiers, expectations, and relationship management
+  visitors-guide.md                    ← First-time visitors and prospective families
+  new-shooter-orientation.md           ← New athlete onboarding: safety, expectations, first sessions
 drills/
   steel-drill-catalog.md               ← Drill library for Steel Challenge training
-  precision-drill-catalog.md           ← Drill library for Precision/Bullseye training
+  precision-drill-catalog.md           ← Drill library for Precision/Bullseye training (stub)
 operations/
-  match-operations.md                  ← Match-day procedures and coordinator checklists
+  match-operations.md                  ← Match-day checklists and Range Officer procedures
+  match-director-guide.md              ← Match Director, AMD, committees, rules, score technician
+  match-organizer.md                   ← Squad assembly and competitor assignment
+  event-management.md                  ← Event type catalog and operational profiles
   safety-manual.md                     ← Range safety rules, emergency procedures, protocols
+  range-safety-plan.md                 ← Site-specific range safety: layout, roles, emergency steps
   range-operations.md                  ← Range setup, teardown, and daily operations
+  inventory-management.md              ← Program equipment and supply tracking
 assets/
   diagrams/                            ← Diagrams and charts
   logos/                               ← Organization logos and marks
   graphics/                            ← Supporting graphics and visual aids
+  presentations/                       ← Presentation decks (new shooter orientation, etc.)
+  inventory/                           ← Inventory master list and asset records
 templates/
   document-template.md                 ← Generic starter template
   doctrine-template.md                 ← Doctrine-specific starter
@@ -149,6 +166,7 @@ templates/
   guide-template.md                    ← Guide-specific starter
   drill-template.md                    ← Drill entry starter
   operation-template.md                ← Operations document starter
+  shooter-performance-log.md           ← Session/match performance data, journal, and coach feedback
 ```
 
 ---
