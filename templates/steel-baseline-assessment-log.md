@@ -32,6 +32,8 @@ tags:
 > **Protocol reference:** [frameworks/steel-baseline-assessment.md](../frameworks/steel-baseline-assessment.md)
 >
 > **Terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
+>
+> **Program context:** This form is designed for **SaSP (Sporter and Precision Steel)** — a league format similar to USPSA Steel Challenge. It supports two levels of granularity: use the full form with all observation sections in practice; use a condensed match-day version for in-match recording.
 
 ---
 
@@ -173,37 +175,38 @@ tags:
 
 ## Part 4: Test 2 — Transition Speed Test
 
-> **Setup:** Wide target array (e.g., Focus stage). Firearm loaded. Aimed at the starting target. Finger on trigger. On beep, fire one round on the starting target and immediately transition to the far target and fire one round. Record total time. Repeat in both directions.
+> **Setup:** Wide target array (e.g., Focus stage). Firearm loaded. Aimed at the starting target. Finger on trigger. On beep, fire one round on the starting target and immediately transition to the far target and fire one round. Record the split time between shot 1 and shot 2 as the **Inter-Target Transition Time (ITT)**. Repeat in both directions.
 
-> **Transition Time (per run) = Total run time − Athlete's IST (from Test 1 Best Run)**
+> **Primary method — ITT (direct split read):** Read the split time between shot 1 and shot 2 directly from the timer.
+> **Cross-check — ITT (derived):** Total run time − Athlete's IST (from Test 1 Best Run). Both methods should produce the same result.
 
 ### Left-to-Right Runs
 
-| Run # | Total Time (beep to 2nd shot) | − IST | = Transition Time |
-|-------|------------------------------|-------|-------------------|
-| L→R Run 1 | | | |
-| L→R Run 2 | | | |
-| L→R Run 3 | | | |
-| L→R Run 4 | | | |
-| **Average L→R Transition Time** | | | |
+| Run # | Total Time (beep to 2nd shot) | Split Time (1st→2nd shot) | − IST cross-check | = ITT |
+|-------|------------------------------|--------------------------|-------------------|-------|
+| L→R Run 1 | | | | |
+| L→R Run 2 | | | | |
+| L→R Run 3 | | | | |
+| L→R Run 4 | | | | |
+| **Average L→R ITT** | | | | |
 
 ### Right-to-Left Runs
 
-| Run # | Total Time (beep to 2nd shot) | − IST | = Transition Time |
-|-------|------------------------------|-------|-------------------|
-| R→L Run 1 | | | |
-| R→L Run 2 | | | |
-| R→L Run 3 | | | |
-| R→L Run 4 | | | |
-| **Average R→L Transition Time** | | | |
+| Run # | Total Time (beep to 2nd shot) | Split Time (1st→2nd shot) | − IST cross-check | = ITT |
+|-------|------------------------------|--------------------------|-------------------|-------|
+| R→L Run 1 | | | | |
+| R→L Run 2 | | | | |
+| R→L Run 3 | | | | |
+| R→L Run 4 | | | | |
+| **Average R→L ITT** | | | | |
 
 ### Test 2 Calculations
 
 | Metric | Value |
 |--------|-------|
-| Average L→R Transition Time | |
-| Average R→L Transition Time | |
-| **Overall Average Transition Time** *(both directions combined)* | |
+| Average L→R ITT | |
+| Average R→L ITT | |
+| **Overall Average ITT** *(both directions combined)* | |
 | Faster direction | ☐ L→R  ☐ R→L  ☐ Equal |
 | Directional difference (faster − slower) | sec |
 
@@ -214,7 +217,7 @@ tags:
 
 ---
 
-## Part 5: Test 3 — Low-Ready First Shot Test
+## Part 5: Test 3 — First-Target Acquisition Test (Low-Ready "1st Shot Time")
 
 > **Setup:** Firearm loaded. Held at low-ready (firearm pointed down ~45°, grip established, finger outside trigger guard). On beep, raise to target and fire one shot. Record elapsed time from beep to shot break.
 
@@ -228,8 +231,8 @@ tags:
 
 | Metric | Value |
 |--------|-------|
-| **Average Low-Ready First Shot Time** | |
-| **Fastest Low-Ready First Shot Time** | |
+| **Average First-Target Acquisition Time** | |
+| **Fastest First-Target Acquisition Time** | |
 
 ---
 
@@ -243,11 +246,11 @@ tags:
 | Average Split Time (trigger cycle) | | sec |
 | Fastest Split Time (trigger cycle) | | sec |
 | Derived Reaction Time | | sec |
-| Average L→R Transition Time | | sec |
-| Average R→L Transition Time | | sec |
-| Overall Average Transition Time | | sec |
-| Average Low-Ready First Shot Time | | sec |
-| Fastest Low-Ready First Shot Time | | sec |
+| Average L→R ITT | | sec |
+| Average R→L ITT | | sec |
+| Overall Average ITT | | sec |
+| Average First-Target Acquisition Time | | sec |
+| Fastest First-Target Acquisition Time | | sec |
 
 ---
 
@@ -256,8 +259,8 @@ tags:
 > **Reference:** [frameworks/steel-baseline-assessment.md — Composite Analysis](../frameworks/steel-baseline-assessment.md)
 >
 > **For a stage with N targets (one shot per target):**
-> - Serial: Low-Ready IST + (N−1) × Avg Transition Time + (N−1) × Avg Split Time
-> - Parallel: Low-Ready IST + (N−1) × max(Avg Transition Time, Fastest Split Time)
+> - Serial: First-Target Acquisition Time + (N−1) × Avg ITT + (N−1) × Avg Split Time
+> - Parallel: First-Target Acquisition Time + (N−1) × max(Avg ITT, Fastest Split Time)
 
 ### Stage Configuration for This Calculation
 
@@ -271,8 +274,8 @@ tags:
 ### Serial Model Calculation
 
 ```
-Low-Ready IST:                              ________ sec
-+ ( ___ transitions × ___ avg transition ): ________ sec
+First-Target Acquisition Time:              ________ sec
++ ( ___ transitions × ___ avg ITT ):        ________ sec
 + ( ___ shots × ___ avg split time ):       ________ sec
                                             ────────────
 Serial Theoretical Stage Time:              ________ sec
@@ -281,9 +284,9 @@ Serial Theoretical Stage Time:              ________ sec
 ### Parallel Model Calculation
 
 ```
-Low-Ready IST:                              ________ sec
+First-Target Acquisition Time:              ________ sec
 + ( ___ transitions × ___ [whichever is larger:
-  avg transition OR fastest split] ):       ________ sec
+  avg ITT OR fastest split] ):              ________ sec
                                             ────────────
 Parallel Theoretical Stage Time:            ________ sec
 ```
@@ -304,8 +307,8 @@ Potential gain (seconds):  ________ sec
 | Component | Measured | Classification |
 |-----------|---------|---------------|
 | Average Split Time | sec | World Class / Senior / Intermediate / Rookie |
-| Avg Transition Time | sec | *(no formal benchmark — track for individual trend)* |
-| Low-Ready IST | sec | *(no formal benchmark — track for individual trend)* |
+| Overall Average ITT | sec | *(no formal benchmark — track for individual trend)* |
+| First-Target Acquisition Time (avg) | sec | *(no formal benchmark — track for individual trend)* |
 | Reaction Time | sec | *(no formal benchmark — track for individual trend)* |
 | Theoretical Stage Time (serial) | sec | |
 | Theoretical Stage Time (parallel) | sec | |
@@ -319,19 +322,131 @@ Potential gain (seconds):  ________ sec
 
 > *Copy this row each time a new assessment is completed. Keep all dates in this table for longitudinal comparison.*
 
-| Assessment Date | IST | Avg Split | Fastest Split | Reaction | Avg Transition | L→R Trans | R→L Trans | LR-IST (avg) | Serial TST | Parallel TST | Classification |
-|----------------|-----|-----------|--------------|----------|---------------|-----------|-----------|-------------|-----------|-------------|---------------|
+| Assessment Date | IST | Avg Split | Fastest Split | Reaction | Avg ITT | L→R ITT | R→L ITT | FTAT (avg) | Serial TST | Parallel TST | Classification |
+|----------------|-----|-----------|--------------|----------|---------|---------|---------|-----------|-----------|-------------|---------------|
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
 
-> **Column key:** IST = Initial Shot Time · LR-IST = Low-Ready First Shot Time · TST = Theoretical Stage Time
+> **Column key:** IST = Initial Shot Time · FTAT = First-Target Acquisition Time · ITT = Inter-Target Transition Time · TST = Theoretical Stage Time
 
 ---
 
-## Part 10: Coach Sign-Off
+## Part 10: Technique Observations
+
+> *Complete during and immediately after the session. These observations feed coaching notes and next-session planning.*
+
+### Stage Preparation (per string)
+
+| Observation | ☐ / Notes |
+|-------------|-----------|
+| 6 unloaded sight pictures completed before each string | ☐ Yes  ☐ No  ☐ Inconsistent |
+| Sight picture quality (target acquisition, focal point) | |
+| Shot call technique used | ☐ Call before look  ☐ Concurrent call  ☐ Calls not made |
+| Shot call accuracy (call matched outcome) | ☐ Consistent  ☐ Inconsistent  ☐ Not evaluated |
+| Stop plate execution | ☐ Aggressive (committed, no hesitation)  ☐ Tentative  ☐ Missed stop |
+
+### On-Deck Readiness
+
+| Technique Used | ☐ |
+|----------------|---|
+| Airgun / dry-fire practice on deck | ☐ |
+| Mental visualization of string | ☐ |
+| Relaxation / breathing routine | ☐ |
+| Other prep technique (describe below) | ☐ |
+
+**On-deck routine notes:**
+> *(What did the athlete do while waiting? Was it productive — did it translate to the next string?)*
+
+### Trigger Method Observed
+
+> *Two primary trigger methods in use. Note which the athlete used and whether it was appropriate for the situation.*
+
+| Method | Description | Observed |
+|--------|-------------|----------|
+| Wall-Prep-Break-Reset | Takes up slack, reaches the wall, stages with progressive prep, then breaks — deliberate and controlled | ☐ |
+| Rolling Trigger | Continuous smooth roll through the trigger without stopping at the wall — higher pace, requires a well-developed feel | ☐ |
+
+**Coach note on trigger method:**
+> *(Was the selected method appropriate to the athlete's experience level and the drill? Any inconsistency between methods?)*
+
+### Between-String Behavior
+
+> *Observe what the athlete does in the window between strings. This window is a performance tool.*
+
+| Behavior | Observed |
+|----------|---------|
+| Maintained momentum — moved directly into setup for next string | ☐ |
+| Evaluated target for impact confirmation / sight picture adjustment | ☐ |
+| Physical rest — set gun down, stepped back | ☐ |
+| Distracted or disengaged | ☐ |
+| Consulted with coach purposefully | ☐ |
+
+**Coach note on between-string behavior:**
+> *(Was the athlete using the window well? Were they tuned in to what the next string needed? Any momentum lost or gained?)*
+
+### Easy 5 Observations
+
+> *An "Easy 5" is a stage score of 5 clean hits with no obvious errors, executed with minimal strain. Early or temporary Easy 5s should be noted in context — they may not be repeatable.*
+
+| String # | Easy 5 | Notes / Context |
+|----------|--------|----------------|
+| 1 | ☐ Yes  ☐ No | |
+| 2 | ☐ Yes  ☐ No | |
+| 3 | ☐ Yes  ☐ No | |
+| 4 | ☐ Yes  ☐ No | |
+| 5 | ☐ Yes  ☐ No | |
+
+---
+
+## Part 11: Mulligan Management Log
+
+> *Mulligans in SaSP are available only to rimfire athletes to account for ammo inconsistency. They are NOT a remedy for shooter-induced malfunctions. The management of a mulligan request is itself an evaluation data point.*
+
+| Field | Value |
+|-------|-------|
+| Malfunction occurred | ☐ Yes  ☐ No |
+| String # | |
+| Suspected cause | ☐ Ammo (rimfire misfire)  ☐ Mechanical (gun)  ☐ Shooter-induced  ☐ Unknown |
+| Athlete attempted to clear and continue | ☐ Yes  ☐ No |
+| Run completed after malfunction | ☐ Yes — time: ___  ☐ No |
+| Gun ran smoothly after clearing | ☐ Yes  ☐ No  ☐ Not evaluated |
+| Equipment addressed (taken offline / back gun) | ☐ Yes — describe:  ☐ No |
+| Mulligan requested | ☐ Yes  ☐ No |
+| Request appropriate | ☐ Yes (ammo-related)  ☐ Questionable  ☐ No (shooter-induced) |
+| Multiple mulligan requests this session | ☐ Yes — count: ___  ☐ No |
+| Risk evaluation: retain run or take mulligan | ☐ Retained run — reason:  ☐ Took mulligan — reason: |
+
+**Coach note on mulligan decision:**
+> *(Was the call correct? What intel was gathered from the malfunction? If equipment was the issue, was it addressed appropriately?)*
+
+---
+
+## Part 12: Session Score Summary
+
+> *Rate each section 1–5. 1 = significantly below standard, 3 = meets standard, 5 = excellent. Total the ratings for an overall session score.*
+
+| Section | Rating (1–5) | Notes |
+|---------|-------------|-------|
+| Bio-condition (Part 2) | | |
+| Test 1 — Trigger Speed (split time vs. classification) | | |
+| Test 2 — Transition Speed (ITT consistency) | | |
+| Test 3 — First-Target Acquisition Time | | |
+| Stage preparation (6 sight pictures, shot calls) | | |
+| On-deck readiness | | |
+| Trigger method execution | | |
+| Between-string behavior | | |
+| Mulligan management *(if applicable)* | | |
+| **Session Total** | **/45** | |
+
+**Final Coach Notes:**
+> *(Synthesis of session performance, key observations, and recommended focus for the next training block.)*
+
+---
+
+## Part 13: Coach Sign-Off
 
 | Field | Value |
 |-------|-------|

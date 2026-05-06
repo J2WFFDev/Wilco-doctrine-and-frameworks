@@ -53,7 +53,9 @@ This protocol does not replace run classification or in-session coaching. It sup
 ## Equipment Requirements
 
 - Shot timer (audible start signal)
-- Target array appropriate to each test (described per test)
+- Target array appropriate to each test (described per test):
+  - **Tests 1 and 3:** One target at a safe distance (stage-typical: 7–10 yards)
+  - **Test 2:** Wide stage array with targets at the full lateral range of a typical Steel stage (e.g., Focus); use the same wide stage for all three tests if available, to standardize conditions
 - Loaded magazines — at least one full magazine per test run
 - Athlete in full competition-legal gear (firearm — same setup used in matches)
 - Coach or training partner to record times
@@ -79,6 +81,8 @@ Isolate the athlete's trigger mechanics from all other variables. Measure:
 - Firearm loaded with a full magazine; firearm aimed at the target; finger on trigger
 - Shooter is at the line, ready; no low ready involved
 - Shot timer positioned to capture all shots
+
+> **Context note on split time:** In this test, the split time isolates the pure trigger press cycle — engage slack, reach the wall, prep, prep, prep, break, reset. No transition or recoil movement is involved. This is the most controlled measurement of mechanical trigger speed.
 
 ### Procedure
 
@@ -124,10 +128,14 @@ Isolate the athlete's trigger mechanics from all other variables. Measure:
 
 ### Purpose
 
-Isolate the athlete's lateral movement speed across a wide stage array. Measure:
+Isolate the athlete's lateral inter-target movement speed. Measure:
 
-- **Transition Time by direction** (left-to-right and right-to-left)
+- **Inter-Target Transition Time (ITT)** — the time from the shot break on one target to the shot break on the next (T1→T2, T2→T3, T3→T4, T4→T5)
 - **Directional asymmetry** — which direction is faster, and by how much
+
+Each transition covers a different angular distance (short adjacent moves vs. long cross-stage sweeps), so ITT is best treated as an average across all moves and multiple runs. The sub-components of ITT — lateral muzzle movement, recoil management, direction reversals, impact confirmation, and the trigger cycle on the new target — are difficult to isolate individually at this level and are captured in aggregate.
+
+> **Distinction from Test 3:** ITT measures movement *between* targets. The time from the start signal (beep) to the first shot — from low-ready to T1 — is a separate component called **First-Target Acquisition Time**, measured in Test 3.
 
 This reveals whether body geometry, stance orientation, or dominant-side mechanics favor one direction, and informs positioning and footwork adjustments.
 
@@ -142,10 +150,10 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 1. Athlete aims at the far-left target, finger on trigger, firearm ready
 2. On beep, fire one round at the far-left target, immediately transition to the far-right target, fire one round
-3. Record the total time from beep to second shot break and split time from 1st shot to second shot as Transition Time
+3. Record the total time from beep to second shot break; record the split time from the 1st shot to the 2nd shot as the **Inter-Target Transition Time (ITT)**
 4. Repeat 3–4 runs in this direction; average the results
 5. Reverse: start aimed at far-right target, transition left; repeat 3–4 runs; average
--Note body postions and form
+- Note body positions and form
 
 > **Note on accuracy:** Hits are not required for this test. The athlete should fire in the general direction of each target. The purpose is speed measurement only. If accuracy significantly degrades, note it — it may indicate the athlete is pushing beyond a controlled threshold.
 
@@ -154,18 +162,21 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 | Measurement | How Recorded |
 |-------------|-------------|
 | Total time per run (beep to 2nd shot) | From shot timer |
-| Transistion Time (Split Timefrom 1st shot to 2nd shot) | Noted by coach |
+| ITT (split time from 1st shot to 2nd shot) | Read directly from shot timer — **primary measure** |
 | Direction of each run (L→R or R→L) | Noted by coach |
 
 ### Calculations
 
-| Calculation | Formula |
-|-------------|---------|
-| Transition Time (per run) | Total run time − IST (from Test 1) |
-| Average Transition Time (L→R) | Average of all L→R transition times |
-| Average Transition Time (R→L) | Average of all R→L transition times |
-| Overall Average Transition Time | Average of all runs across both directions |
-| Directional Advantage | Identify which direction is consistently faster |
+Two methods produce the same ITT value — use the split-time read as the primary and the subtract-IST method as a cross-check against Test 1:
+
+| Calculation | Formula | Method |
+|-------------|---------|--------|
+| ITT (direct) | Split time: 2nd shot elapsed − 1st shot elapsed | **Primary** — read directly from timer |
+| ITT (derived) | Total run time − IST (from Test 1 Best Run) | Cross-check — validates against Test 1 IST |
+| Average ITT (L→R) | Average of all L→R ITT values | |
+| Average ITT (R→L) | Average of all R→L ITT values | |
+| Overall Average ITT | Average of all runs across both directions | Used in Theoretical Stage Time formula |
+| Directional Advantage | Identify which direction is consistently faster | |
 
 ---
 
@@ -173,9 +184,14 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 ### Purpose
 
-Measure the time from low-ready position — firearm already drawn and held at low ready, not from holster — to the first shot break. This isolates the **presentation** component: how quickly the athlete can raise the firearm onto target and fire from a ready position.
+Measure the **First-Target Acquisition Time** — the time from low-ready position to the first shot break on the first target. Commonly called **"1st shot time."** This component contains three sub-elements: neurological reaction time + muzzle presentation movement from low ready to the first target + trigger press.
 
-Combined with values from others Tests, gives a complete picture of the net string sequence total time.
+Combined with values from Test 1, the presentation movement can be isolated:
+> Presentation Time ≈ First-Target Acquisition Time − Reaction Time − Avg Split Time
+
+First-Target Acquisition Time is typically the **first and most accessible place to reduce time in a clean run** — small improvements here apply directly to every string. Understanding its sub-components enables a targeted coaching plan.
+
+Combined with values from all three tests, it completes the Theoretical Stage Time model.
 
 ### Setup
 
@@ -224,10 +240,15 @@ For a stage with **N targets** (one shot per target):
 
 | Model | Formula |
 |-------|---------|
-| **Serial** | Low-Ready IST + (N−1) × Avg Transition Time + (N-1) × Avg Split Time |
-| **Parallel** | Low-Ready IST + (N−1) × max(Avg Transition Time, Fastest Split Time) |
+| **Serial** | First-Target Acquisition Time + (N−1) × Avg ITT + (N−1) × Avg Split Time |
+| **Parallel** | First-Target Acquisition Time + (N−1) × max(Avg ITT, Fastest Split Time) |
 
-> **Why (N−1):** The first shot is captured in the IST. Each subsequent shot requires one transition and one trigger cycle. For 5 targets, there are 4 transitions and 4 additional trigger cycles.
+> **Why (N−1):** The first shot is captured in the First-Target Acquisition Time. Each subsequent shot requires one inter-target transition (ITT) and one trigger cycle. For 5 targets, there are 4 ITTs and 4 additional trigger cycles.
+
+> **Formula components:**
+> - First-Target Acquisition Time = Test 3 (low ready → T1 shot break)
+> - Avg ITT = Test 2 (T1→T2, T2→T3, T3→T4, T4→T5 averaged)
+> - Avg / Fastest Split Time = Test 1 (pure trigger cycle)
 
 ### Example Calculation
 
@@ -235,20 +256,20 @@ Using the following measured values for an intermediate:
 
 | Component | Value |
 |-----------|-------|
-| Low-Ready First Shot Time | 0.54 sec |
-| Average Split Time (trigger cycle) | 0.25 sec |
-| Fastest Split Time (trigger cycle) | 0.15 sec |
-| Average Transition Time | 0.41 sec |
-| Derived Reaction Time | 0.07 sec |
+| First-Target Acquisition Time (Test 3) | 0.54 sec |
+| Average Split Time (trigger cycle, Test 1) | 0.25 sec |
+| Fastest Split Time (trigger cycle, Test 1) | 0.15 sec |
+| Average ITT (Test 2) | 0.41 sec |
+| Derived Reaction Time (Test 1) | 0.07 sec |
 
 **For a 5-target stage (e.g., Focus):**
 
 | Model | Calculation | Result |
 |-------|-------------|--------|
-| Serial | 0.54 - + (4 × 0.41) + (4 × 0.25) | **3.18 sec** |
+| Serial | 0.54 + (4 × 0.41) + (4 × 0.25) | **3.18 sec** |
 | Parallel | 0.54 + (4 × 0.41) | **2.18 sec** |
 
-> **Interpretation:** The novice athlete performing all tasks in serial, with some additional hesitation and unaccounted latency between sub-tasks, produces a typical string time in the range of 3.4–3.6 seconds — consistent with observed novice performance. As the athlete's individual components improve and parallel execution is introduced, the theoretical time compresses toward the parallel model floor.  Sub-task performed in parallel are limited to the slowest sub-task.  If trigger press slower than transsiton, a cadence issue may be obseerved.  Improving transsisions in this case will not make meaningful improvement in string time.
+> **Interpretation:** The novice athlete performing all tasks in serial, with some additional hesitation and unaccounted latency between sub-tasks, produces a typical string time in the range of 3.4–3.6 seconds — consistent with observed novice performance. As the athlete's individual components improve and parallel execution is introduced, the theoretical time compresses toward the parallel model floor.  Sub-tasks performed in parallel are limited to the slowest sub-task.  If trigger press is slower than the ITT, a cadence issue may be observed.  Improving transitions in this case will not make meaningful improvement in string time.
 
 ### Component Improvement Impact
 
@@ -257,11 +278,11 @@ Each component that improves reduces stage time proportionally:
 | Component improved | Effect on a 5-target stage|
 |--------------------|---------------------------|
 | Avg Trigger press (split) Time −0.05 sec | −0.20 sec per string |
-| Avg Transition Time −0.05 sec | −0.20 sec per string |
-| Low-Ready IST −0.05 sec | −0.05 sec per string |
+| Avg ITT −0.05 sec | −0.20 sec per string |
+| First-Target Acquisition Time −0.05 sec | −0.05 sec per string |
 | Serial → Parallel execution | −0.40 to −1.00 sec per string (variable) |
 
-> **Coaching implication:** Transition time and trigger press time improvements have equal impact on serial stage time. The single largest gain comes from introducing parallel execution — but limited by the slowest sub-task time threshold.
+> **Coaching implication:** ITT and trigger press time improvements have equal impact on serial stage time. The single largest gain comes from introducing parallel execution — but limited by the slowest sub-task time threshold.
 
 ---
 
@@ -283,8 +304,8 @@ For each assessment date, record and compare:
 - IST
 - Average and fastest split time
 - Derived reaction time
-- Average transition time (by direction and overall)
-- Average and fastest low-ready first shot time
+- Average ITT (by direction and overall)
+- Average and fastest First-Target Acquisition Time
 - Theoretical stage time (serial and parallel)
 - Benchmark classification for split time
 

@@ -111,7 +111,12 @@ A strategic planning framework used at the program level for seasonal planning a
 | **Measure** | How progress and success are tracked |
 
 ### Split Time
-The elapsed time between consecutive shot breaks during rapid fire on a single target. Measured from one shot break to the next. Split time reflects the combined time of trigger reset, trigger prep, and the shot break — the core mechanical speed of the shooter's trigger cycle.
+The elapsed time between any two consecutive shot breaks. Measured from one shot break to the next. **What split time captures depends on context:**
+
+- **In Test 1 (rapid fire, single target):** The split time reflects the pure trigger press cycle — engage, take up slack, wall, prep, prep, prep, break, reset. No transition or recoil management is involved. This is the athlete's mechanical trigger speed in isolation.
+- **In a stage run or transition-heavy drill:** The split time between shots on different targets includes lateral muzzle movement, recoil management, and possibly direction reversals in addition to the trigger cycle.
+
+Split time is always a raw timer measurement; interpreting it correctly requires knowing what sub-tasks occurred between the two shots.
 
 ### Initial Shot Time (IST)
 The elapsed time from the start signal (audible beep) to the first shot break. IST includes the athlete's neurological reaction time plus any presentation movement required (e.g., from low-ready or from holster). IST is recorded separately from subsequent split times.
@@ -122,13 +127,19 @@ The neurological component of the Initial Shot Time — the delay between receiv
 > **Formula:** Reaction Time = IST − Average Split Time
 
 ### Transition Time
-The elapsed time from the shot break on one target to the shot break on the next target. Transition time captures the full movement cycle: muzzle departure, travel, arrival, and the trigger cycle on the new target. Measured by direction (left-to-right and right-to-left) because body geometry can produce asymmetric results.
+An umbrella term for the two distinct time components that involve moving the muzzle to a new target. Because their sub-components differ, they are named and measured separately:
+
+#### First-Target Acquisition Time
+The elapsed time from the start signal (beep) to the first shot break, measured from low-ready position. Commonly called **"1st shot time."** Contains: neurological reaction time + muzzle presentation movement from low ready to the first target + trigger press. This is typically the first and most accessible place to recover time in a clean run. Measured in **Test 3**. Derived coaching value: subtract Reaction Time and Average Split Time to isolate the presentation movement component.
+
+#### Inter-Target Transition Time (ITT)
+The elapsed time from the shot break on one target to the shot break on the next target (T1→T2, T2→T3, T3→T4, T4→T5). ITT captures the full inter-target movement cycle: lateral muzzle travel, recoil management, any direction reversals, impact confirmation, and the trigger cycle on the new target. Because each inter-target move covers a different angular distance, individual ITT values vary; the **average ITT** across all moves and multiple runs is the value used in the Theoretical Stage Time formula. Measured in **Test 2** by direction (left-to-right and right-to-left), because body geometry can produce asymmetric results.
 
 ### Theoretical Stage Time
-A calculated estimate of a complete stage string time, derived by combining the athlete's measured performance components — Initial Shot Time, Transition Time, and trigger cycle time — applied to a specific stage layout. Theoretical Stage Time can be modeled in serial or parallel execution:
+A calculated estimate of a complete stage string time, derived by combining the athlete's measured performance components — First-Target Acquisition Time, Inter-Target Transition Time (ITT), and trigger cycle time — applied to a specific stage layout. Theoretical Stage Time can be modeled in serial or parallel execution:
 
-- **Serial model:** IST + (Transitions × Avg Transition Time) + (Follow-on shots × Avg Trigger Press Time)
-- **Parallel model:** IST + (Transitions × max(Avg Transition Time, Fastest Trigger Press Time))
+- **Serial model:** First-Target Acquisition Time + (Transitions × Avg ITT) + (Follow-on shots × Avg Trigger Press Time)
+- **Parallel model:** First-Target Acquisition Time + (Transitions × max(Avg ITT, Fastest Trigger Press Time))
 
 Parallel execution compresses time by overlapping trigger prep into the transition movement. See [frameworks/execution-models.md](../frameworks/execution-models.md) and [frameworks/steel-baseline-assessment.md](../frameworks/steel-baseline-assessment.md) for full methodology.
 

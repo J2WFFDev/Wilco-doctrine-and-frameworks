@@ -114,4 +114,37 @@ Avoid post-match conversations that are only emotional or only outcome-focused. 
 
 ---
 
+## Steel Challenge Baseline Assessment — Coaching Reference
+
+> **Status: Placeholder** — This section will be expanded into a full coaching guide for administering and interpreting the Steel Challenge Baseline Assessment Protocol. Key concepts are captured here for coach development and continuity.
+
+**Reference documents:**
+- Protocol: [frameworks/steel-baseline-assessment.md](../frameworks/steel-baseline-assessment.md)
+- Log form: [templates/steel-baseline-assessment-log.md](../templates/steel-baseline-assessment-log.md)
+- Terminology: [doctrine/terminology.md](../doctrine/terminology.md)
+
+### Key Concepts for Coaches
+
+**Two distinct transition components — know the difference:**
+- **First-Target Acquisition Time ("1st shot time"):** Beep → first shot break, from low ready. Contains reaction time + presentation + trigger press. This is the first and most accessible place to find time in a clean run. Coaching it means understanding all three sub-components separately.
+- **Inter-Target Transition Time (ITT):** Shot break on Tₙ → shot break on Tₙ₊₁. Contains lateral movement, recoil management, possible direction reversal, impact confirmation, and trigger cycle. Sub-components are hard to isolate individually — treat ITT as an aggregate that is averaged across multiple runs and both directions.
+
+**Split time is context-dependent:**
+In Test 1 (rapid fire, single target), the split time is a pure trigger press cycle — engage, wall, prep, break, reset. In any context involving transitions, the split between shots also includes whatever happened between them. Always interpret split time relative to what the athlete was doing.
+
+**Two trigger methods — both are valid:**
+- *Wall-Prep-Break-Reset:* Deliberate, staged approach. Appropriate for developing athletes or confirming-execution scenarios.
+- *Rolling trigger:* Continuous smooth press through — higher pace, requires a well-developed feel. Used by experienced athletes in predictive-execution mode.
+Coaching trigger method selection requires understanding the athlete's current level and the tactical context of each shot.
+
+**Stage preparation in SaSP:** Athletes do not stage walk. The equivalent is **6 unloaded sight pictures** before each string. Coach athletes to use this time intentionally: establish the sight picture on each target in order, confirm foot position, and load the mental plan.
+
+**On-deck readiness is a performance input:** What an athlete does while waiting to shoot affects the next string. Coach athletes to use the window — airgun practice, visualization, or deliberate relaxation. Disengagement or anxious distraction is a coachable behavior.
+
+**Between-string behavior matters:** The window between strings is a performance tool. Evaluate whether the athlete is using it for momentum, evaluation, or necessary rest — and whether that choice was appropriate for the moment.
+
+**Mulligan management (rimfire only):** A mulligan exists to address ammo inconsistency — not shooter-induced malfunctions. Coaching mulligan management means helping athletes evaluate: Was the request appropriate? Did they attempt to clear and continue? Was there intel from the gun's post-malfunction behavior? Is retaining a good run the right risk-reward call? RSOs and coaches may assist with the evaluation.
+
+---
+
 *Wilco Shooting Sports · Coach Guide v0.1 · Draft*
