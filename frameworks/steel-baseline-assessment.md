@@ -52,11 +52,12 @@ This protocol does not replace run classification or in-session coaching. It sup
 
 ## Equipment Requirements
 
-- Shot timer with par-time capability (audible start signal)
+- Shot timer (audible start signal)
 - Target array appropriate to each test (described per test)
 - Loaded magazines — at least one full magazine per test run
-- Athlete in full competition-legal gear (holster, belt, firearm — same setup used in matches)
+- Athlete in full competition-legal gear (firearm — same setup used in matches)
 - Coach or training partner to record times
+- Log sheet
 
 ---
 
@@ -74,17 +75,17 @@ Isolate the athlete's trigger mechanics from all other variables. Measure:
 
 ### Setup
 
-- One target at close range (5–7 yards); no accuracy requirement beyond keeping all rounds on target
+- One target of a wide stage like Focus; no accuracy requirement beyond keeping all rounds on\near target
 - Firearm loaded with a full magazine; firearm aimed at the target; finger on trigger
-- Shooter is at the line, ready; no holster draw involved
+- Shooter is at the line, ready; no low ready involved
 - Shot timer positioned to capture all shots
 
 ### Procedure
 
 1. Athlete establishes grip, stance, and sight picture — finger on trigger, aimed at target
-2. Coach signals to timer operator: "Ready"
+2. Coach signals to timer operator: "Shooter Ready"
 3. On the beep, athlete fires every round in the magazine as fast as possible, keeping all rounds in the general target area
-4. Timer captures the full string; coach records all split times as displayed on the timer
+4. Timer captures the full string; coach records total time, # of shots recorded, 1st shot time and all split times as displayed on the timer
 5. Repeat 2–3 times; use the best run for primary analysis, record all runs for context
 
 ### Measurements Recorded
@@ -132,7 +133,7 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 ### Setup
 
-- Wide stage with targets at the far left and far right of the array (a stage like *Focus* works well; targets should be separated by the full lateral range of a typical Steel Challenge stage)
+- Wide stage with targets at the far left and far right of the array (a stage like *Focus* works well; targets should be separated by the full lateral range of a typical Steel stage)
 - Firearm loaded; aimed at the starting target; finger on trigger
 - Shooter at the line in competition stance
 - Shot timer ready
@@ -141,10 +142,10 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 1. Athlete aims at the far-left target, finger on trigger, firearm ready
 2. On beep, fire one round at the far-left target, immediately transition to the far-right target, fire one round
-3. Record the total time from beep to second shot break
-4. Subtract the athlete's IST (from Test 1) from the total time — the remainder is the Transition Time
-5. Repeat 3–4 runs in this direction; average the results
-6. Reverse: start aimed at far-right target, transition left; repeat 3–4 runs; average
+3. Record the total time from beep to second shot break and split time from 1st shot to second shot as Transition Time
+4. Repeat 3–4 runs in this direction; average the results
+5. Reverse: start aimed at far-right target, transition left; repeat 3–4 runs; average
+-Note body postions and form
 
 > **Note on accuracy:** Hits are not required for this test. The athlete should fire in the general direction of each target. The purpose is speed measurement only. If accuracy significantly degrades, note it — it may indicate the athlete is pushing beyond a controlled threshold.
 
@@ -153,6 +154,7 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 | Measurement | How Recorded |
 |-------------|-------------|
 | Total time per run (beep to 2nd shot) | From shot timer |
+| Transistion Time (Split Timefrom 1st shot to 2nd shot) | Noted by coach |
 | Direction of each run (L→R or R→L) | Noted by coach |
 
 ### Calculations
@@ -173,11 +175,11 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 Measure the time from low-ready position — firearm already drawn and held at low ready, not from holster — to the first shot break. This isolates the **presentation** component: how quickly the athlete can raise the firearm onto target and fire from a ready position.
 
-Combined with IST from Test 1, this gives a complete picture of the draw-to-fire sequence without the holster variable.
+Combined with values from others Tests, gives a complete picture of the net string sequence total time.
 
 ### Setup
 
-- One target at match-typical distance (7–10 yards)
+- One target at stage-typical distance (7–10 yards)
 - Firearm loaded; held in low-ready position (firearm pointed down at approximately 45°, grip established, finger outside trigger guard)
 - Shot timer ready
 
@@ -222,14 +224,14 @@ For a stage with **N targets** (one shot per target):
 
 | Model | Formula |
 |-------|---------|
-| **Serial** | Low-Ready IST + (N−1) × Avg Transition Time + (N−1) × Avg Split Time |
+| **Serial** | Low-Ready IST + (N−1) × Avg Transition Time + (N-1) × Avg Split Time |
 | **Parallel** | Low-Ready IST + (N−1) × max(Avg Transition Time, Fastest Split Time) |
 
 > **Why (N−1):** The first shot is captured in the IST. Each subsequent shot requires one transition and one trigger cycle. For 5 targets, there are 4 transitions and 4 additional trigger cycles.
 
 ### Example Calculation
 
-Using the following measured values:
+Using the following measured values for an intermediate:
 
 | Component | Value |
 |-----------|-------|
@@ -239,27 +241,27 @@ Using the following measured values:
 | Average Transition Time | 0.41 sec |
 | Derived Reaction Time | 0.07 sec |
 
-**For a 5-target stage (e.g., Smoke and Hope):**
+**For a 5-target stage (e.g., Focus):**
 
 | Model | Calculation | Result |
 |-------|-------------|--------|
-| Serial | 0.54 + (4 × 0.41) + (4 × 0.25) | **3.18 sec** |
+| Serial | 0.54 - + (4 × 0.41) + (4 × 0.25) | **3.18 sec** |
 | Parallel | 0.54 + (4 × 0.41) | **2.18 sec** |
 
-> **Interpretation:** The novice athlete performing all tasks in serial, with some additional hesitation and unaccounted latency between sub-tasks, produces a typical string time in the range of 3.4–3.6 seconds — consistent with observed novice performance. As the athlete's individual components improve and parallel execution is introduced, the theoretical time compresses toward the parallel model floor.
+> **Interpretation:** The novice athlete performing all tasks in serial, with some additional hesitation and unaccounted latency between sub-tasks, produces a typical string time in the range of 3.4–3.6 seconds — consistent with observed novice performance. As the athlete's individual components improve and parallel execution is introduced, the theoretical time compresses toward the parallel model floor.  Sub-task performed in parallel are limited to the slowest sub-task.  If trigger press slower than transsiton, a cadence issue may be obseerved.  Improving transsisions in this case will not make meaningful improvement in string time.
 
 ### Component Improvement Impact
 
 Each component that improves reduces stage time proportionally:
 
-| Component improved | Effect on a 5-target stage |
+| Component improved | Effect on a 5-target stage|
 |--------------------|---------------------------|
-| Avg Split Time −0.05 sec | −0.20 sec per string |
+| Avg Trigger press (split) Time −0.05 sec | −0.20 sec per string |
 | Avg Transition Time −0.05 sec | −0.20 sec per string |
 | Low-Ready IST −0.05 sec | −0.05 sec per string |
 | Serial → Parallel execution | −0.40 to −1.00 sec per string (variable) |
 
-> **Coaching implication:** Transition time and split time improvements have equal impact on serial stage time. The single largest gain comes from introducing parallel execution — but only once split times are consistently below the transition time threshold.
+> **Coaching implication:** Transition time and trigger press time improvements have equal impact on serial stage time. The single largest gain comes from introducing parallel execution — but limited by the slowest sub-task time threshold.
 
 ---
 
