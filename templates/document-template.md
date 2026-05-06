@@ -1,19 +1,18 @@
 ---
 title: "Document Title"
-document_type: "doctrine"
-status: "draft"
+document_type: "doctrine"       # doctrine | framework | guide | drill | operation | template
+status: "draft"                 # draft | in-review | approved | archived
 version: "0.1"
 last_updated: "YYYY-MM-DD"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
 audience:
-  - coaches
-summary: "Short summary of the document."
+  - coaches                     # coaches | athletes | parents | volunteers | all
+summary: "One-sentence summary of this document."
 related_documents:
   - "doctrine/terminology.md"
 canonical_terminology: "doctrine/terminology.md"
 tags:
-  - doctrine
   - draft
 ---
 
@@ -23,15 +22,21 @@ tags:
 
 ---
 
+## Purpose
+
+*Why does this document exist? Who should read it?*
+
+---
+
 ## Section 1
 
-Content goes here.
+*Content.*
 
 ---
 
 ## Section 2
 
-Content goes here.
+*Content.*
 
 ---
 

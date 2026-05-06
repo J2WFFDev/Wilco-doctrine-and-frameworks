@@ -91,9 +91,13 @@ All standardized terms are defined in [`doctrine/terminology.md`](doctrine/termi
 
 ## 7. Contribution Workflow
 
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full contribution guide, including document ownership, approval workflow, branch conventions, and terminology control.
+
+Quick summary:
+
 1. **Open an issue** describing what you want to add or change
 2. **Create a branch** from `main` (e.g., `docs/update-terminology`)
-3. **Make your changes** following the conventions above
+3. **Make your changes** using the appropriate template from `templates/`
 4. **Submit a pull request** to `main` with a clear description
 5. **Request review** from at least one other contributor
 
@@ -105,6 +109,9 @@ For small fixes (typos, formatting), you may commit directly to `main`.
 
 ```
 README.md                              ← This file
+CONTRIBUTING.md                        ← Contribution rules, ownership, workflow
+docs/
+  document-crosswalk.md                ← Concept map: where each topic lives canonically
 doctrine/
   master-doctrine.md                   ← Purpose, mission, vision, values, development model
   terminology.md                       ← Canonical definitions for all program terms
@@ -131,8 +138,12 @@ assets/
   logos/                               ← Organization logos and marks
   graphics/                            ← Supporting graphics and visual aids
 templates/
-  document-template.md                 ← Starter template for new documents
-  drill-template.md                    ← Starter template for new drills
+  document-template.md                 ← Generic starter template
+  doctrine-template.md                 ← Doctrine-specific starter
+  framework-template.md                ← Framework-specific starter
+  guide-template.md                    ← Guide-specific starter
+  drill-template.md                    ← Drill entry starter
+  operation-template.md                ← Operations document starter
 ```
 
 ---
