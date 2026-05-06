@@ -77,7 +77,7 @@ Isolate the athlete's trigger mechanics from all other variables. Measure:
 
 ### Setup
 
-- One target of a wide stage like Focus; no accuracy requirement beyond keeping all rounds on\near target
+- One target of a wide stage like Focus; no accuracy requirement beyond keeping all rounds on or near target
 - Firearm loaded with a full magazine; firearm aimed at the target; finger on trigger
 - Shooter is at the line, ready; no low ready involved
 - Shot timer positioned to capture all shots
