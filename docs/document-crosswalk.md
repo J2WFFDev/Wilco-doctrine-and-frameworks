@@ -88,6 +88,11 @@ Use this when:
 | Metrics hierarchy (Tiers 1–6) | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed) | Analytics framework |
 | Environment and bio-condition tracking | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed) | Analytics framework |
 | Equipment baseline tracking | `frameworks/steel-performance-framework.md` | `frameworks/analytics-framework.md` (when developed) | Coach guide |
+| **Serial vs. parallel execution model** | `frameworks/execution-models.md` | `frameworks/steel-performance-framework.md`, `drills/steel-drill-catalog.md` | Do not describe in drill notes |
+| **Cognitive vs. mechanical overlap; compressed timing** | `frameworks/execution-models.md` | `guides/coach-guide.md` | Steel framework links; coach guide links |
+| **Impact assessment taxonomy (visual/audible/predictive/index-feel/hybrid)** | `frameworks/impact-assessment-model.md` | `frameworks/steel-performance-framework.md`, `doctrine/terminology.md` (summary definition) | Do not collapse to "shot calling" — these are distinct concepts |
+| **Match/Stage/String preparation layering** | `frameworks/preparation-framework.md` | `doctrine/master-doctrine.md` (summary), `guides/athlete-handbook.md` | Athlete handbook describes athlete behavior; prep-framework owns the model |
+| **Visualization, VR, airgun, dry-fire tools** | `frameworks/preparation-framework.md` | `guides/athlete-handbook.md`, `guides/coach-guide.md` | Athlete handbook links, does not define |
 | Precision/Bullseye execution model | `frameworks/precision-performance-framework.md` *(stub)* | `drills/precision-drill-catalog.md` *(stub)* | TBD |
 | Data collection and metrics reporting | `frameworks/analytics-framework.md` *(stub)* | All frameworks | TBD |
 
@@ -137,8 +142,12 @@ Use this when:
 | Document hierarchy | `doctrine/governance.md` | `README.md`, `CONTRIBUTING.md` | README and CONTRIBUTING should summarize and link |
 | Versioning rules | `doctrine/governance.md` | `CONTRIBUTING.md` | CONTRIBUTING should summarize and link |
 | Status lifecycle | `doctrine/governance.md` | `README.md`, `CONTRIBUTING.md` | Consistent across all three |
+| **GitHub editorial workflow (draft → approved)** | `doctrine/governance.md` | `CONTRIBUTING.md` | CONTRIBUTING summarizes steps; governance owns the policy |
+| **3-tier documentation architecture** | `docs/docs-architecture.md` | `doctrine/governance.md`, `README.md` | README summarizes; docs-architecture.md owns the model |
+| **Why vs. How separation** | `docs/docs-architecture.md` | `doctrine/governance.md`, `CONTRIBUTING.md` | Do not restate in every document — link |
 | Contribution workflow | `CONTRIBUTING.md` | `README.md` | README summarizes; CONTRIBUTING is the source |
 | Document ownership and approval | `CONTRIBUTING.md` | `doctrine/governance.md` | Governance is the policy; CONTRIBUTING is the how-to |
+| **AI tool usage and governance** | `docs/ai-workflow.md` | `CONTRIBUTING.md` (brief reference) | One location only |
 
 ---
 
@@ -154,6 +163,15 @@ These topics are mentioned in existing documents but have no canonical home yet:
 | Precision execution model | `frameworks/precision-performance-framework.md` | Stub only |
 | Group analysis methodology | `frameworks/precision-performance-framework.md` | Stub only |
 | Athlete goal-setting worksheet | `guides/athlete-handbook.md` or `templates/` | OKR process described but no form exists |
+| PARR model expanded (systems thinking, reflection timing, refinement culture) | `doctrine/master-doctrine.md` or new `doctrine/parr-model.md` | Currently a section; should be expanded |
+| Mental performance (reflection timing, emotional recovery, confidence collapse) | `doctrine/philosophy.md` or new `frameworks/mental-performance.md` | Currently surface-level only |
+| Metrics philosophy (metrics serving development, not replacing sportsmanship) | `frameworks/analytics-framework.md` | Covered in master-doctrine; needs its own section in analytics |
+| AI workflow prompt templates | `docs/ai-workflow.md` | Stub section exists |
+| Diagram: PARR loop | `assets/diagrams/` | Not yet created |
+| Diagram: Serial vs. parallel execution | `assets/diagrams/` | Not yet created |
+| Diagram: Documentation hierarchy | `assets/diagrams/` | Not yet created |
+| Diagram: Athlete development pathway | `assets/diagrams/` | Not yet created |
+| Diagram: Preparation layers | `assets/diagrams/` | Not yet created |
 
 ---
 

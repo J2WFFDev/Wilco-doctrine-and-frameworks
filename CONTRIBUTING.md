@@ -163,9 +163,11 @@ Start every new document from the appropriate template in `templates/`:
 ## Reference Documents
 
 - [`README.md`](README.md) — repository overview and map
-- [`doctrine/governance.md`](doctrine/governance.md) — versioning, hierarchy, and approval rules
+- [`doctrine/governance.md`](doctrine/governance.md) — versioning, hierarchy, approval rules, and GitHub editorial workflow
 - [`doctrine/terminology.md`](doctrine/terminology.md) — all canonical term definitions
 - [`docs/document-crosswalk.md`](docs/document-crosswalk.md) — concept map showing where topics live
+- [`docs/docs-architecture.md`](docs/docs-architecture.md) — 3-tier architecture and Why vs. How separation
+- [`docs/ai-workflow.md`](docs/ai-workflow.md) — rules for using ChatGPT and GitHub Copilot in this repository
 
 ---
 

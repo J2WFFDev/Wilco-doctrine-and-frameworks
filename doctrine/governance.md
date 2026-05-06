@@ -156,6 +156,135 @@ doctrine/master-doctrine.md
 
 Frameworks, guides, and operations may not contradict doctrine. When drafting any document, check [master-doctrine.md](master-doctrine.md) and [terminology.md](terminology.md) first.
 
+> For full architecture detail and the Why vs. How separation, see [docs/docs-architecture.md](../docs/docs-architecture.md).
+
+---
+
+## GitHub Editorial Workflow
+
+This section explains how GitHub's native tools map to the document editorial process — from first draft through publication.
+
+### The Core Concept
+
+Git tracks every change to every file automatically. You never lose a version. The `status` field in frontmatter tells readers what state a document is in. Together, these two systems give you full editorial control without a separate document management tool.
+
+```
+Git history         ← Every change, forever, who made it and when
+Frontmatter status  ← Where the document is in the editorial lifecycle
+GitHub PRs          ← The editorial review and approval mechanism
+GitHub Issues       ← The task and feedback tracking system
+```
+
+---
+
+### Draft to Published: Step by Step
+
+#### Step 1 — Open an Issue
+
+Before creating a new document or making a significant change, open a GitHub Issue describing:
+- What document you are creating or changing
+- Why it is needed
+- Which other documents it affects
+
+This creates a traceable record of intent and allows others to weigh in before work begins.
+
+#### Step 2 — Create a Branch
+
+Create a new branch from `main` for your work:
+
+```
+docs/new-execution-models
+docs/update-terminology-v02
+docs/revise-steel-framework
+```
+
+Never write draft content directly on `main`. The `main` branch is the stable, clean reference version of the repository.
+
+#### Step 3 — Write and Iterate
+
+Write the document on your branch. Set `status: draft` in the frontmatter. Increment the `version` as the draft evolves (`0.1 → 0.2 → 0.3`). Commit frequently with descriptive commit messages.
+
+#### Step 4 — Open a Pull Request
+
+When the document is ready for review, open a Pull Request (PR) targeting `main`. The PR description should explain:
+- What changed and why
+- Which documents are affected
+- Whether any links were added or updated
+
+Change the frontmatter `status` to `in-review` in this PR.
+
+#### Step 5 — Review
+
+One or more reviewers read the document and leave comments in the PR. The author addresses feedback and makes additional commits to the same branch. The PR conversation becomes the editorial record.
+
+#### Step 6 — Approve and Merge
+
+When the reviewer approves the PR:
+1. Change `status: in-review` → `status: approved`
+2. Set `version` to the first production number (`1.0` for first approval, `1.x` for subsequent)
+3. Merge the PR into `main`
+
+The document is now "published." The merge date is visible in Git history.
+
+---
+
+### Draft vs. Production Summary
+
+| State | Frontmatter Status | Branch | Notes |
+|-------|-------------------|--------|-------|
+| In progress | `draft` | Feature branch | Not authoritative |
+| Ready for review | `in-review` | Feature branch via PR | Under editorial review |
+| **Published / Production** | **`approved`** | **Merged to `main`** | **Authoritative reference** |
+| Replaced | `archived` | On `main` | Kept for history |
+
+**"Production ready" = `status: approved` on `main`.**
+
+Readers who want only authoritative content should filter for `status: approved` documents. All `status: draft` documents are working material, not final references.
+
+---
+
+### Using GitHub Labels
+
+Apply labels to Issues and PRs to communicate state at a glance:
+
+| Label | Meaning |
+|-------|---------|
+| `status: draft` | Document is actively being written |
+| `status: in-review` | PR is open and awaiting review |
+| `status: approved` | Merged; document is production |
+| `type: doctrine` | Change affects doctrine-level content |
+| `type: terminology` | Change affects `terminology.md` |
+| `type: new-doc` | Creates a new document |
+| `priority: high` | Needs attention before the next session or match |
+
+---
+
+### Using GitHub Releases for Repo Snapshots
+
+GitHub Releases allow you to tag a specific snapshot of the entire repository as a named version — useful for "Season 2026 approved documents" or "Approved for print."
+
+To create a release:
+1. Go to the repository → Releases → Draft a new release
+2. Tag it with a version (e.g., `v2026.1` or `season-2026`)
+3. Describe which documents are approved and what this release represents
+
+This gives you a permanent, downloadable snapshot of the entire repository at that point in time — useful for printing, sharing with families, or archiving before a major revision cycle.
+
+---
+
+### Quick Reference: GitHub Tools Map
+
+| Situation | GitHub Tool |
+|-----------|-------------|
+| Track a planned document or known gap | Issue |
+| Propose new content for review | Pull Request |
+| Provide feedback on a document | PR review comments |
+| Flag a conflict between two documents | Issue |
+| Mark a document as production-ready | Merge PR; set `status: approved` |
+| Archive a replaced document | Set `status: archived` in a commit |
+| Snapshot the full repo for a season | GitHub Release |
+| See who changed what and when | Git commit history |
+
 ---
 
 *Wilco Shooting Sports · Governance v0.1 · Draft*

@@ -112,14 +112,19 @@ README.md                              ← This file
 CONTRIBUTING.md                        ← Contribution rules, ownership, workflow
 docs/
   document-crosswalk.md                ← Concept map: where each topic lives canonically
+  docs-architecture.md                 ← 3-tier architecture and Why vs. How separation
+  ai-workflow.md                       ← Rules for using ChatGPT and Copilot in this repo
 doctrine/
   master-doctrine.md                   ← Purpose, mission, vision, values, development model
   terminology.md                       ← Canonical definitions for all program terms
   philosophy.md                        ← Coaching, competition, and youth development philosophy
-  governance.md                        ← Document hierarchy, versioning, review cadence
+  governance.md                        ← Document hierarchy, versioning, GitHub editorial workflow
 frameworks/
   steel-performance-framework.md       ← Steel Challenge execution model and performance system
   precision-performance-framework.md   ← Precision/NRA Bullseye performance framework
+  execution-models.md                  ← Serial vs. parallel execution; cognitive/mechanical overlap
+  impact-assessment-model.md           ← Visual, audible, predictive, index/feel, hybrid assessment
+  preparation-framework.md             ← Match, stage, and string preparation layering
   analytics-framework.md               ← Data collection, metrics, and reporting structure
 guides/
   athlete-handbook.md                  ← Athlete expectations, routines, and competition prep
