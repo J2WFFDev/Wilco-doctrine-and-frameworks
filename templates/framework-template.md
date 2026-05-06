@@ -1,8 +1,8 @@
 ---
 title: "Framework Title"
 document_type: "framework"
-status: "draft"
-version: "0.1"
+status: "placeholder"           # placeholder | dev | draft | in-review | approved | archived
+version: "0.0"
 last_updated: "YYYY-MM-DD"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
@@ -17,7 +17,7 @@ related_documents:
 canonical_terminology: "doctrine/terminology.md"
 tags:
   - framework
-  - draft
+  - placeholder
 ---
 
 # Framework Title
@@ -130,4 +130,4 @@ COMPONENT A → COMPONENT B → COMPONENT C
 
 ---
 
-*Wilco Shooting Sports · [Framework Title] v0.1 · Draft*
+*Wilco Shooting Sports · [Framework Title] v0.0 · Placeholder*

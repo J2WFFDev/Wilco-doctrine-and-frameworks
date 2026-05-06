@@ -48,8 +48,8 @@ Every Markdown file must begin with YAML frontmatter. Use the appropriate templa
 ---
 title: "Exact Document Title"
 document_type: "doctrine"          # doctrine | framework | guide | drill | operation | template
-status: "draft"                    # draft | in-review | approved | archived
-version: "0.1"
+status: "placeholder"              # placeholder | dev | draft | in-review | approved | archived
+version: "0.0"
 last_updated: "YYYY-MM-DD"
 author: "Author Name"
 organization: "Wilco Shooting Sports"
@@ -60,7 +60,7 @@ related_documents:
   - "doctrine/terminology.md"
 canonical_terminology: "doctrine/terminology.md"
 tags:
-  - draft
+  - placeholder
 ---
 ```
 
@@ -81,15 +81,20 @@ When you update a document, increment `version` and update `last_updated`.
 ## Status Lifecycle
 
 ```
-draft → in-review → approved → archived
+planned → placeholder → dev → draft → in-review → approved → archived
 ```
 
-| Status | Meaning | Who Sets It |
-|--------|---------|-------------|
-| `draft` | Active work in progress | Author |
-| `in-review` | Ready for review | Author (via PR) |
-| `approved` | Reviewed and accepted | Approver |
-| `archived` | No longer active | Approver |
+> `planned` exists only as a GitHub Issue label — no file is created until development begins.
+
+| Status | Meaning | Version | Who Sets It |
+|--------|---------|---------|-------------|
+| `planned` | Identified as needed; Issue open, no file exists | — | Author (Issue label) |
+| `placeholder` | File created from template — headings only, no substantive content | `0.0` | Author |
+| `dev` | Active content development — rough, AI-assisted, or incomplete sections | `0.1+` | Author |
+| `draft` | First complete readable document — whole thought present; ready for editorial review | `0.x` | Author |
+| `in-review` | PR open; pending formal review | `0.x` | Author (via PR) |
+| `approved` | Reviewed, accepted, and merged to `main` — authoritative | `1.0+` | Approver |
+| `archived` | No longer active; kept for history | unchanged | Approver |
 
 ---
 

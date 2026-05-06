@@ -1,8 +1,8 @@
 ---
 title: "Drill Name"
 document_type: "drill"
-status: "draft"
-version: "0.1"
+status: "placeholder"           # placeholder | dev | draft | in-review | approved | archived
+version: "0.0"
 last_updated: "YYYY-MM-DD"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
@@ -16,7 +16,7 @@ related_documents:
 canonical_terminology: "doctrine/terminology.md"
 tags:
   - drill
-  - draft
+  - placeholder
 ---
 
 # Drill Name
@@ -50,4 +50,4 @@ tags:
 
 ---
 
-*Wilco Shooting Sports · Drill Name v0.1 · Draft*
+*Wilco Shooting Sports · Drill Name v0.0 · Placeholder*

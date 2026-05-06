@@ -1,8 +1,8 @@
 ---
 title: "Operations Document Title"
 document_type: "operation"
-status: "draft"
-version: "0.1"
+status: "placeholder"           # placeholder | dev | draft | in-review | approved | archived
+version: "0.0"
 last_updated: "YYYY-MM-DD"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
@@ -16,7 +16,7 @@ related_documents:
 canonical_terminology: "doctrine/terminology.md"
 tags:
   - operation
-  - draft
+  - placeholder
 ---
 
 # Operations Document Title
@@ -89,4 +89,4 @@ tags:
 
 ---
 
-*Wilco Shooting Sports · [Operations Document Title] v0.1 · Draft*
+*Wilco Shooting Sports · [Operations Document Title] v0.0 · Placeholder*

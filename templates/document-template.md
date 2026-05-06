@@ -1,8 +1,8 @@
 ---
 title: "Document Title"
 document_type: "doctrine"       # doctrine | framework | guide | drill | operation | template
-status: "draft"                 # draft | in-review | approved | archived
-version: "0.1"
+status: "placeholder"           # placeholder | dev | draft | in-review | approved | archived
+version: "0.0"
 last_updated: "YYYY-MM-DD"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
@@ -13,7 +13,7 @@ related_documents:
   - "doctrine/terminology.md"
 canonical_terminology: "doctrine/terminology.md"
 tags:
-  - draft
+  - placeholder
 ---
 
 # Document Title
@@ -40,4 +40,4 @@ tags:
 
 ---
 
-*Wilco Shooting Sports · Document Title v0.1 · Draft*
+*Wilco Shooting Sports · Document Title v0.0 · Placeholder*

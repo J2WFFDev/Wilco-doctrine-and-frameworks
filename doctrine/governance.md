@@ -2,7 +2,7 @@
 title: "Wilco Shooting Sports — Governance"
 document_type: "doctrine"
 status: "draft"
-version: "0.1"
+version: "0.2"
 last_updated: "2026-05-06"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
@@ -60,14 +60,18 @@ Every document carries a `version` field in its YAML frontmatter.
 
 | Version Pattern | When to Use |
 |-----------------|-------------|
-| `0.x` | Draft — content is incomplete or under active revision |
+| `0.0` | Placeholder — file scaffolded from template; no substantive content |
+| `0.x` | Pre-approval — content in active development, draft, or in-review |
 | `1.0` | First approved version — reviewed and accepted by Coach Jim West |
 | `1.x` | Minor approved revision — section-level changes, additions |
 | `x.0` | Major approved revision — structural or substantive overhaul |
 
 ### Version Increment Rules
-- Increment the minor version (`0.1 → 0.2`) for any content change while in `draft` status.
-- Increment to `1.0` when the document completes first formal review.
+- Set `0.0` when a file is first created from a template (`placeholder` status).
+- Increment to `0.1` when substantive content development begins (`dev` status).
+- Increment the minor version (`0.1 → 0.2`) for any content change during `dev` or `draft` status.
+- Version numbers during `dev` and `draft` represent iteration (Draft 1 = `0.1`, Draft 2 = `0.2`, etc.).
+- Increment to `1.0` when the document completes first formal review and is approved.
 - Increment the minor version (`1.0 → 1.1`) for non-breaking updates after approval.
 - Increment the major version (`1.x → 2.0`) for significant structural changes after approval.
 
@@ -75,12 +79,16 @@ Every document carries a `version` field in its YAML frontmatter.
 
 ## Status Values
 
-| Status | Meaning |
-|--------|---------|
-| `draft` | Active working draft, subject to change |
-| `in-review` | Submitted for review, pending approval |
-| `approved` | Formally reviewed and accepted |
-| `archived` | No longer active; kept for historical reference |
+| Status | Meaning | Version |
+|--------|---------|---------|
+| `placeholder` | File scaffolded — frontmatter and section headings only; no substantive content | `0.0` |
+| `dev` | Active content development — rough, AI-assisted, or sections still incomplete | `0.1+` |
+| `draft` | First complete, coherent document — whole thought is present and readable; ready for editorial review | `0.x` |
+| `in-review` | Submitted for review via PR; pending approval | `0.x` |
+| `approved` | Formally reviewed, accepted, and merged to `main` — the authoritative reference | `1.0+` |
+| `archived` | No longer active; superseded or retired — kept for historical reference | unchanged |
+
+> **Note on `planned`:** Documents that are identified as needed but do not yet exist as files are tracked as GitHub Issues with a `status: planned` label — not as files in the repository. A file is created only when development begins, starting at `placeholder`.
 
 Documents must not be used as authoritative references until they reach `approved` status.
 
@@ -179,14 +187,14 @@ GitHub Issues       ← The task and feedback tracking system
 
 ### Draft to Published: Step by Step
 
-#### Step 1 — Open an Issue
+#### Step 1 — Open an Issue (Planned)
 
 Before creating a new document or making a significant change, open a GitHub Issue describing:
 - What document you are creating or changing
 - Why it is needed
 - Which other documents it affects
 
-This creates a traceable record of intent and allows others to weigh in before work begins.
+Apply the `status: planned` label. This creates a traceable record of intent and allows others to weigh in before work begins. The document does not exist as a file yet — that happens in Step 2.
 
 #### Step 2 — Create a Branch
 
@@ -202,11 +210,16 @@ Never write draft content directly on `main`. The `main` branch is the stable, c
 
 #### Step 3 — Write and Iterate
 
-Write the document on your branch. Set `status: draft` in the frontmatter. Increment the `version` as the draft evolves (`0.1 → 0.2 → 0.3`). Commit frequently with descriptive commit messages.
+Create the file from the appropriate template in `templates/`. The file begins at `status: placeholder`, `version: 0.0`.
+
+- When you begin adding substantive content, change `status` to `dev` and increment version to `0.1`.
+- Continue incrementing version as content grows (`0.1 → 0.2 → 0.3`). Each version is a numbered draft iteration.
+- When the document is a complete, coherent first pass — whole thought present, readable end-to-end — change `status` to `draft`.
+- Commit frequently with descriptive commit messages.
 
 #### Step 4 — Open a Pull Request
 
-When the document is ready for review, open a Pull Request (PR) targeting `main`. The PR description should explain:
+When the document reaches `draft` status and is ready for review, open a Pull Request (PR) targeting `main`. The PR description should explain:
 - What changed and why
 - Which documents are affected
 - Whether any links were added or updated
@@ -228,18 +241,23 @@ The document is now "published." The merge date is visible in Git history.
 
 ---
 
-### Draft vs. Production Summary
+### Draft vs. Published Summary
 
 | State | Frontmatter Status | Branch | Notes |
 |-------|-------------------|--------|-------|
-| In progress | `draft` | Feature branch | Not authoritative |
+| Planned (no file yet) | — | Issues only | Tracked as a GitHub Issue with `status: planned` label |
+| File created, headings only | `placeholder` | Feature branch | Not readable content |
+| Active writing | `dev` | Feature branch | Rough, AI-assisted, incomplete sections |
+| Complete first pass | `draft` | Feature branch | Whole thought present; ready for editorial review |
 | Ready for review | `in-review` | Feature branch via PR | Under editorial review |
-| **Published / Production** | **`approved`** | **Merged to `main`** | **Authoritative reference** |
+| **Published / Authoritative** | **`approved`** | **Merged to `main`** | **Authoritative reference** |
 | Replaced | `archived` | On `main` | Kept for history |
 
-**"Production ready" = `status: approved` on `main`.**
+**"Published" = `status: approved` on `main`.**
 
-Readers who want only authoritative content should filter for `status: approved` documents. All `status: draft` documents are working material, not final references.
+Readers who want only authoritative content should filter for `status: approved` documents. Documents at `placeholder`, `dev`, or `draft` status are working material, not final references.
+
+> **How to see a document's history:** On GitHub, navigate to any file → click **History**. Every commit that changed that file is listed, with the exact content at each version. This is how you review prior drafts, compare versions, and trace the editorial record — no separate branch system is needed.
 
 ---
 
@@ -249,9 +267,13 @@ Apply labels to Issues and PRs to communicate state at a glance:
 
 | Label | Meaning |
 |-------|---------|
-| `status: draft` | Document is actively being written |
+| `status: planned` | Identified as needed; Issue open, no file yet |
+| `status: placeholder` | File exists with headings only; no substantive content |
+| `status: dev` | Active content development underway |
+| `status: draft` | First complete readable pass; ready for editorial review |
 | `status: in-review` | PR is open and awaiting review |
-| `status: approved` | Merged; document is production |
+| `status: approved` | Merged; document is authoritative |
+| `status: archived` | No longer active; retained for history |
 | `type: doctrine` | Change affects doctrine-level content |
 | `type: terminology` | Change affects `terminology.md` |
 | `type: new-doc` | Creates a new document |
@@ -276,15 +298,19 @@ This gives you a permanent, downloadable snapshot of the entire repository at th
 
 | Situation | GitHub Tool |
 |-----------|-------------|
-| Track a planned document or known gap | Issue |
-| Propose new content for review | Pull Request |
+| Track a planned document or known gap | Issue (label: `status: planned`) |
+| Scaffold a new file from template | Create file; set `status: placeholder`, `version: 0.0` |
+| Begin writing content | Set `status: dev`, increment to `0.1` |
+| Document is complete first pass | Set `status: draft` |
+| Propose content for review | Pull Request |
 | Provide feedback on a document | PR review comments |
 | Flag a conflict between two documents | Issue |
-| Mark a document as production-ready | Merge PR; set `status: approved` |
+| Mark a document as authoritative | Merge PR; set `status: approved`, `version: 1.0` |
 | Archive a replaced document | Set `status: archived` in a commit |
+| See a document's prior drafts | GitHub → file → History |
 | Snapshot the full repo for a season | GitHub Release |
 | See who changed what and when | Git commit history |
 
 ---
 
-*Wilco Shooting Sports · Governance v0.1 · Draft*
+*Wilco Shooting Sports · Governance v0.2 · Draft*
