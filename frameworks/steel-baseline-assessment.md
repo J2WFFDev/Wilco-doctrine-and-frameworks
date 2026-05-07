@@ -72,7 +72,7 @@ This protocol does not replace run classification or in-session coaching. It sup
 | Test | Round plan | Recommended loadout allocation |
 |------|------------|--------------------------------|
 | Test 1 — Trigger Speed | 8–10 shots, single run by default | 1 magazine/speed loader |
-| Test 2 — Transition Speed | 10 total shots per direction (5 runs × 2 shots) | 2 magazines/speed loaders total (one per direction, or mixed by direction as needed) |
+| Test 2 — Transition Speed | 5 runs per direction (2 shots each; 10 shots per direction, 20 shots total) | 2 magazines/speed loaders total (one per direction, or mixed by direction as needed) |
 | Test 3 — First-Target Acquisition | 8–10 single-shot reps | 1 magazine/speed loader |
 | Test 4 — Full Stage Runs | Remaining rounds for 3–5 full runs + observation scoring | 2–3 magazines/speed loaders |
 

@@ -81,7 +81,7 @@ tags:
 | Test | Planned rounds | Magazine / loader count | Direction plan / notes |
 |------|----------------|-------------------------|------------------------|
 | Test 1 — Trigger Speed | 8–10 | 1 | |
-| Test 2 — Transition Speed | 20 total *(5 L→R runs + 5 R→L runs at 2 shots each)* | 2 | ☐ Mag 1 L→R, Mag 2 R→L  ☐ Mixed directions across both mags |
+| Test 2 — Transition Speed | 20 total shots *(10 runs total: 5 L→R + 5 R→L, at 2 shots each)* | 2 | ☐ Mag 1 L→R, Mag 2 R→L  ☐ Mixed directions across both mags |
 | Test 3 — First-Target Acquisition | 8–10 | 1 | |
 | Test 4 — Full Stage Runs | Remaining baseline loadout | 2–3 | |
 | Contingency reload | As available | 1 extra | |

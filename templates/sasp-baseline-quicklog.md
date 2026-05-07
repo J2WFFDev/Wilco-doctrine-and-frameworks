@@ -41,7 +41,7 @@ tags:
 
 | Division | Class |
 |----------|-------|
-| ☐ Rookie  ☐ Intermediate  ☐ Senior  ☐ Collegiate *(N/A for this program)* | Intermediate: ☐ Entry ☐ Advanced  ·  Senior: ☐ Junior Varsity ☐ Varsity  ·  Rookie/Collegiate: N/A |
+| ☐ Rookie  ☐ Intermediate  ☐ Senior  ☐ Collegiate *(N/A for this program)* | Intermediate: ☐ Entry ☐ Advanced  ·  Senior: ☐ Junior Varsity ☐ Varsity  ·  Rookie/Collegiate: no class tracked |
 
 | Discipline (Firearm) |
 |----------------------|
@@ -74,7 +74,7 @@ tags:
 | Test | Plan |
 |------|------|
 | Test 1 — Trigger Speed | 8–10 rounds, single target, one run unless invalid |
-| Test 2 — Transition Speed | 10 runs total (5 each direction), 2 rounds per run, use 2 mags, **randomize starting direction (L or R)** |
+| Test 2 — Transition Speed | 10 runs total (target 5 L→R and 5 R→L), 2 rounds per run, use 2 mags, **randomize starting direction (L or R)** |
 | Test 3 — First Shot Time (Low Ready) | 8–10 single-shot reps |
 | Test 4 — Full Stage Runs | 3–5 strings, normal sequence |
 
