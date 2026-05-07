@@ -114,4 +114,59 @@ Avoid post-match conversations that are only emotional or only outcome-focused. 
 
 ---
 
+## SASP Baseline Assessment — Coaching Reference
+
+> **Status: Placeholder** — This section will be expanded into a full coaching guide for administering and interpreting the SASP Baseline Assessment Protocol. Key concepts are captured here for coach development and continuity.
+
+**Reference documents:**
+- Protocol: [frameworks/steel-baseline-assessment.md](../frameworks/steel-baseline-assessment.md)
+- Log form: [templates/steel-baseline-assessment-log.md](../templates/steel-baseline-assessment-log.md)
+- Terminology: [doctrine/terminology.md](../doctrine/terminology.md)
+
+### Key Concepts for Coaches
+
+**Two distinct transition components — know the difference:**
+- **First-Target Acquisition Time ("1st shot time"):** Beep → first shot break, from low ready. Contains reaction time + presentation + trigger press. This is the first and most accessible place to find time in a clean run. Coaching it means understanding all three sub-components separately.
+- **Inter-Target Transition Time (ITT):** Shot break on Tₙ → shot break on Tₙ₊₁. Contains lateral movement, recoil management, possible direction reversal, impact confirmation, and trigger cycle. Sub-components are hard to isolate individually — treat ITT as an aggregate that is averaged across multiple runs and both directions.
+
+**Split time is context-dependent:**
+In Test 1 (rapid fire, single target), the split time is a pure trigger press cycle — engage, wall, prep, break, reset. In any context involving transitions, the split between shots also includes whatever happened between them. Always interpret split time relative to what the athlete was doing.
+
+**Two trigger methods — both are valid:**
+- *Wall-Prep-Break-Reset:* Deliberate, staged approach. Appropriate for developing athletes or confirming-execution scenarios.
+- *Rolling trigger:* Continuous smooth press through — higher pace, requires a well-developed feel. Used by experienced athletes in predictive-execution mode.
+Coaching trigger method selection requires understanding the athlete's current level and the tactical context of each shot.
+
+**Stage preparation in SASP** encompasses two distinct phases: *practice-phase optimization* and *pre-string execution prep*. These are not the same activity — one is a training investment made over many sessions; the other is a 15-second mental ritual before each string.
+
+*Practice-Phase Stage Preparation (built in training, before competition day):*
+
+Full stage preparation begins in practice, not at the line. Coaches should guide athletes to test and optimize all key variables for each stage:
+
+- **Feet position and body alignment:** Stance should minimize the total body rotation required to engage all targets without compromising stability. Test multiple foot positions that center the athlete's natural swing arc on the widest part of the target array. Alignment to the hardest or most extreme transition often produces the best overall result.
+- **Target picking order — hardest target first:** SASP coaching philosophy holds that the first shot from low ready is the most accurate and most controlled shot of the string. The most difficult target — longest distance, smallest face, most off-axis from the athlete's natural position — should typically be engaged first, when the athlete has maximum accuracy and focus. This also benefits timing: a confident first-shot result on the hardest target allows a fast, committed run to all remaining targets without hesitation.
+- **Reducing transition distance through picking order:** After placing the hardest target first, sequence the remaining targets to minimize total lateral travel. Avoid orders that force unnecessary cross-stage sweeps when a shorter path covers all targets.
+- **Stage traps and turns:** Identify intentional design features that challenge the shooter — forced reversals, off-angle targets, asymmetric arrays, or positions where the body must fight its own geometry to track a particular move. Develop a specific trained response to each trap during practice, not in competition.
+- **Per-stage target order reference table:** A target selection and reasoning table for each SASP stage should be created and filled in as athletes develop their stage plans. *[Stage-specific target order tables: TBD — placeholder for future stage planning document.]*
+
+*Pre-String Execution Prep (on the day, before each string):*
+
+Athletes do not stage walk in SASP. The pre-string equivalent is **6 unloaded sight pictures** before each string. Coach athletes to use this window intentionally — not as a warm-up, but as the final mental execution of a plan already built in practice: establish the sight picture on each target in the planned engagement order, confirm foot position, and load the mental string. Six sight pictures = six confirmations of the plan.
+
+**On-deck readiness is a performance input:** What an athlete does while waiting to shoot affects the next string. Coach athletes to use the window — airgun practice, visualization, or deliberate relaxation. Disengagement or anxious distraction is a coachable behavior.
+
+**Between-string behavior matters:** The window between strings is a performance tool. Evaluate whether the athlete is using it for momentum, evaluation, or necessary rest — and whether that choice was appropriate for the moment.
+
+**Mulligan management (rimfire only):** A mulligan exists to address ammo inconsistency — not shooter-induced malfunctions. Coaching mulligan management means helping athletes evaluate: Was the request appropriate? Did they attempt to clear and continue? Was there intel from the gun's post-malfunction behavior? Is retaining a good run the right risk-reward call? RSOs and coaches may assist with the evaluation.
+
+**Coaching findings taxonomy (for session notes):**
+- ~80%: repeatable mistakes with known corrective practice actions (primary coaching workload)
+- small subset: advanced/rare/unique technique findings
+- small subset: equipment-behavior findings (springs, extractor/cycling issues, etc.) tied to equipment fault tracking
+- very rare: master-level outside-the-box insights
+
+Use this taxonomy in post-session notes so common corrective actions stay actionable while rare findings are still captured.
+
+---
+
 *Wilco Shooting Sports · Coach Guide v0.1 · Draft*

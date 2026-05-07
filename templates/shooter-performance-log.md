@@ -38,7 +38,7 @@ tags:
 | **Date** | |
 | **Event Type** | Practice / Internal Match / Competition |
 | **Location** | |
-| **Discipline** | Steel Challenge / Precision / Other |
+| **Discipline** | SASP / Precision / Other |
 | **Coach Present** | |
 
 ---

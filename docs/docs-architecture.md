@@ -68,7 +68,7 @@ Frameworks and Guides operationalize doctrine. They answer **HOW** and **WHAT**.
 These documents should be consistent with doctrine. If a framework contradicts doctrine, the framework is wrong.
 
 **Framework files:**
-- [`steel-performance-framework.md`](../frameworks/steel-performance-framework.md) — Steel Challenge execution model and performance system
+- [`steel-performance-framework.md`](../frameworks/steel-performance-framework.md) — SASP execution model and performance system
 - [`precision-performance-framework.md`](../frameworks/precision-performance-framework.md) — Precision/NRA Bullseye performance framework
 - [`execution-models.md`](../frameworks/execution-models.md) — Serial vs. parallel execution, cognitive vs. mechanical overlap
 - [`impact-assessment-model.md`](../frameworks/impact-assessment-model.md) — Visual, audible, predictive, and hybrid impact assessment taxonomy
@@ -91,7 +91,7 @@ Operational documents are the most practical and most frequently updated tier. T
 - Content that changes with seasons, venues, or rosters
 
 **Operational files:**
-- [`steel-drill-catalog.md`](../drills/steel-drill-catalog.md) — Drill library for Steel Challenge
+- [`steel-drill-catalog.md`](../drills/steel-drill-catalog.md) — Drill library for SASP
 - [`precision-drill-catalog.md`](../drills/precision-drill-catalog.md) — Drill library for Precision/Bullseye
 - [`match-operations.md`](../operations/match-operations.md) — Match-day procedures and checklists
 - [`safety-manual.md`](../operations/safety-manual.md) — Range safety rules, emergency procedures

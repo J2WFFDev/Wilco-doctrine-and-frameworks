@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - coaches
   - athletes
-summary: "Defines the taxonomy of impact assessment modes used in Steel Challenge: visual, audible, predictive, index/feel/force-of-will, and hybrid. Provides the coaching framework for developing and applying each assessment type."
+summary: "Defines the taxonomy of impact assessment modes used in SASP: visual, audible, predictive, index/feel/force-of-will, and hybrid. Provides the coaching framework for developing and applying each assessment type."
 related_documents:
   - "doctrine/terminology.md"
   - "frameworks/steel-performance-framework.md"
