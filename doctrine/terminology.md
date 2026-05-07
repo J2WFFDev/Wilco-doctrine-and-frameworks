@@ -45,7 +45,7 @@ The intentional forward release of the trigger to the reset point following a sh
 The moment the firearm discharges. Specifically, the quality of the shot break — whether it was clean (no movement) or disturbed (flinch, anticipation, push).
 
 ### Predictive Execution
-A firing mode in which the shooter fires based on an anticipated sight picture, typically used in Steel Challenge when the shot is fired as the muzzle arrives on target. High-risk, high-reward; requires a well-developed presentation and strong internalized target geometry.
+A firing mode in which the shooter fires based on an anticipated sight picture, typically used in SASP when the shot is fired as the muzzle arrives on target. High-risk, high-reward; requires a well-developed presentation and strong internalized target geometry.
 
 ### Confirmed Execution
 A firing mode in which the shooter fires only after visually confirming an acceptable sight picture on the target. Safer, more accurate, but slower than predictive execution.

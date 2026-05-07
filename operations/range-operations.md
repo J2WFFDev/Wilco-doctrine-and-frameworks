@@ -49,7 +49,7 @@ tags:
 
 ## Stage Setup
 
-### Steel Challenge Stage Setup
+### SASP Stage Setup
 1. Reference the approved stage diagram for target positions
 2. Measure and mark target positions before placing stands
 3. Confirm target heights are within match specifications

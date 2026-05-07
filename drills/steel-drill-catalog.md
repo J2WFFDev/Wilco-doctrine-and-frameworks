@@ -1,5 +1,5 @@
 ---
-title: "Steel Challenge Drill Catalog"
+title: "SASP Drill Catalog"
 document_type: "drill"
 status: "draft"
 version: "0.1"
@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - coaches
   - athletes
-summary: "Drill library for Steel Challenge training at Wilco Shooting Sports, organized by performance component."
+summary: "Drill library for SASP training at Wilco Shooting Sports, organized by performance component."
 related_documents:
   - "doctrine/terminology.md"
   - "frameworks/steel-performance-framework.md"
@@ -17,11 +17,11 @@ related_documents:
 canonical_terminology: "doctrine/terminology.md"
 tags:
   - drill
-  - steel-challenge
+  - steel-sasp
   - draft
 ---
 
-# Steel Challenge Drill Catalog
+# SASP Drill Catalog
 
 > **Canonical terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
 >
@@ -167,7 +167,7 @@ tags:
 **Target Component:** All
 
 **Setup:**
-- Full Steel Challenge stage layout (e.g., Five to Go, Showdown)
+- Full SASP stage layout (e.g., Five to Go, Showdown)
 - Standard match conditions
 
 **Procedure:**
@@ -185,4 +185,4 @@ tags:
 
 ---
 
-*Wilco Shooting Sports · Steel Challenge Drill Catalog v0.1 · Draft*
+*Wilco Shooting Sports · SASP Drill Catalog v0.1 · Draft*

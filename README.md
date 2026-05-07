@@ -121,7 +121,7 @@ doctrine/
   philosophy.md                        ← Coaching, competition, and youth development philosophy
   governance.md                        ← Document hierarchy, versioning, GitHub editorial workflow
 frameworks/
-  steel-performance-framework.md       ← Steel Challenge execution model and performance system
+  steel-performance-framework.md       ← SASP execution model and performance system
   precision-performance-framework.md   ← Precision/NRA Bullseye performance framework (stub)
   execution-models.md                  ← Serial vs. parallel execution; cognitive/mechanical overlap
   impact-assessment-model.md           ← Visual, audible, predictive, index/feel, hybrid assessment
@@ -142,7 +142,7 @@ guides/
   visitors-guide.md                    ← First-time visitors and prospective families
   new-shooter-orientation.md           ← New athlete onboarding: safety, expectations, first sessions
 drills/
-  steel-drill-catalog.md               ← Drill library for Steel Challenge training
+  steel-drill-catalog.md               ← Drill library for SASP training
   precision-drill-catalog.md           ← Drill library for Precision/Bullseye training (stub)
 operations/
   match-operations.md                  ← Match-day checklists and Range Officer procedures

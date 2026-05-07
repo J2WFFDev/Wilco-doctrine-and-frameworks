@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - coaches
   - athletes
-summary: "Defines serial and parallel execution models for Steel Challenge, including cognitive vs. mechanical overlap, compressed timing, and prep-during-movement concepts. Forms the theoretical foundation for advanced execution coaching."
+summary: "Defines serial and parallel execution models for SASP, including cognitive vs. mechanical overlap, compressed timing, and prep-during-movement concepts. Forms the theoretical foundation for advanced execution coaching."
 related_documents:
   - "doctrine/master-doctrine.md"
   - "doctrine/terminology.md"
@@ -19,7 +19,7 @@ canonical_terminology: "doctrine/terminology.md"
 tags:
   - framework
   - execution
-  - steel-challenge
+  - steel-sasp
   - draft
 ---
 
@@ -27,15 +27,15 @@ tags:
 
 > **Canonical terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
 >
-> **Status:** Draft placeholder. This document defines the conceptual execution models that underpin advanced Steel Challenge coaching. Expand each section with coaching cues, diagrams, and athlete-level application notes.
+> **Status:** Draft placeholder. This document defines the conceptual execution models that underpin advanced SASP coaching. Expand each section with coaching cues, diagrams, and athlete-level application notes.
 
 ---
 
 ## Purpose
 
-This framework defines the theoretical models behind how execution unfolds in time during a Steel Challenge stage. Understanding these models is required for coaches and athletes to make sense of why certain techniques are faster, why certain mistakes happen, and how to design drills that target the right component.
+This framework defines the theoretical models behind how execution unfolds in time during a SASP stage. Understanding these models is required for coaches and athletes to make sense of why certain techniques are faster, why certain mistakes happen, and how to design drills that target the right component.
 
-The execution model concepts in this document form the "why" behind the technical cues found in the [Steel Performance Framework](steel-performance-framework.md).
+The execution model concepts in this document form the "why" behind the technical cues found in the [SASP Performance Framework](steel-performance-framework.md).
 
 ---
 
@@ -116,7 +116,7 @@ Coaching priority: **Build cognitive overlap before building mechanical overlap.
 
 ## Prep During Movement
 
-One of the highest-value parallel skills in Steel Challenge:
+One of the highest-value parallel skills in SASP:
 
 > **Trigger prep occurs during muzzle transition, not after muzzle arrival.**
 

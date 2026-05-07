@@ -1,5 +1,5 @@
 ---
-title: "Steel Challenge Baseline Assessment Log"
+title: "SASP Baseline Assessment Log"
 document_type: "template"
 status: "draft"
 version: "0.1"
@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - athletes
   - coaches
-summary: "Data capture form for the Steel Challenge Baseline Assessment Protocol. Records raw shot timer data and calculated metrics for four tests, derives a Theoretical Stage Time, captures applied full-stage findings, and supports longitudinal tracking across assessment dates."
+summary: "Data capture form for the SASP Baseline Assessment Protocol. Records raw shot timer data and calculated metrics for four tests, derives a Theoretical Stage Time, captures applied full-stage findings, and supports longitudinal tracking across assessment dates."
 related_documents:
   - "frameworks/steel-baseline-assessment.md"
   - "frameworks/steel-performance-framework.md"
@@ -25,7 +25,7 @@ tags:
   - draft
 ---
 
-# Steel Challenge Baseline Assessment Log
+# SASP Baseline Assessment Log
 
 > **How to use this form:** Copy this file and rename it using the format `logs/[lastname]-[firstname]-[date]-baseline.md` (e.g., `logs/west-jim-2026-05-06-baseline.md`). Complete one section per test. Raw data is recorded during the session; calculations are completed immediately after. The coach reviews and signs off before filing.
 >
@@ -33,7 +33,9 @@ tags:
 >
 > **Terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
 >
-> **Program context:** This form is designed for **SaSP (Sporter and Precision Steel)** — a league format similar to USPSA Steel Challenge. It supports two levels of granularity: use the full form with all observation sections in practice; use a condensed match-day version for in-match recording.
+> **Program context:** This form is designed for **SASP (Sporter and Precision Steel)** — a league format similar to USPSA Steel Challenge. It supports two levels of granularity: use the full form with all observation sections in practice; use a condensed match-day version for in-match recording.
+>
+> **Quick-print form:** For field use, see [templates/sasp-baseline-quicklog.md](sasp-baseline-quicklog.md) — a condensed single-sheet (front/back) version designed for printing.
 
 ---
 
@@ -254,7 +256,7 @@ tags:
 
 ## Part 5B: Test 4 — Full Stage Runs (Applied Validation)
 
-> **Setup:** Use remaining 2–3 magazines/speed loaders. Run standard SaSP/Steel stage strings in normal sequence. Capture timer data and observation scoring (1–5 scale).
+> **Setup:** Use remaining 2–3 magazines/speed loaders. Run standard SASP/Steel stage strings in normal sequence. Capture timer data and observation scoring (1–5 scale).
 
 | Run # | String Time | Run Classification | Notes |
 |-------|------------|--------------------|-------|
@@ -444,7 +446,7 @@ Potential gain (seconds):  ________ sec
 
 ## Part 11: Mulligan Management Log
 
-> *Mulligans in SaSP are available only to rimfire athletes to account for ammo inconsistency. They are NOT a remedy for shooter-induced malfunctions. The management of a mulligan request is itself an evaluation data point.*
+> *Mulligans in SASP are available only to rimfire athletes to account for ammo inconsistency. They are NOT a remedy for shooter-induced malfunctions. The management of a mulligan request is itself an evaluation data point.*
 
 | Field | Value |
 |-------|-------|
@@ -512,4 +514,4 @@ Potential gain (seconds):  ________ sec
 
 ---
 
-*Wilco Shooting Sports · Steel Challenge Baseline Assessment Log Template v0.1 · Draft*
+*Wilco Shooting Sports · SASP Baseline Assessment Log Template v0.1 · Draft*

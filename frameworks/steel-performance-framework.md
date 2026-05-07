@@ -1,5 +1,5 @@
 ---
-title: "Steel Challenge Performance Framework"
+title: "SASP Performance Framework"
 document_type: "framework"
 status: "draft"
 version: "0.1"
@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - coaches
   - athletes
-summary: "The structured performance framework for Steel Challenge competition at Wilco Shooting Sports, covering execution model, run classification, performance components, drill design, environment and bio-condition tracking, and equipment metrics."
+summary: "The structured performance framework for SASP competition at Wilco Shooting Sports, covering execution model, run classification, performance components, drill design, environment and bio-condition tracking, and equipment metrics."
 related_documents:
   - "doctrine/master-doctrine.md"
   - "doctrine/terminology.md"
@@ -18,11 +18,11 @@ related_documents:
 canonical_terminology: "doctrine/terminology.md"
 tags:
   - framework
-  - steel-challenge
+  - steel-sasp
   - draft
 ---
 
-# Steel Challenge Performance Framework
+# SASP Performance Framework
 
 > **Canonical terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
 
@@ -30,13 +30,13 @@ tags:
 
 ## Purpose
 
-This framework defines how Wilco Shooting Sports structures the development, measurement, and improvement of Steel Challenge performance. It provides coaches and athletes a common language, a shared execution model, and a structured approach to analysis and drill design.
+This framework defines how Wilco Shooting Sports structures the development, measurement, and improvement of SASP performance. It provides coaches and athletes a common language, a shared execution model, and a structured approach to analysis and drill design.
 
 ---
 
 ## Execution Model
 
-Steel Challenge performance is built on three interconnected components:
+SASP performance is built on three interconnected components:
 
 ```
 PRESENTATION → TARGET ENGAGEMENT → TRANSITION
@@ -166,8 +166,8 @@ Establish a consistent equipment baseline for each athlete before tracking perfo
 
 Lower tier numbers reflect outcome metrics. Higher tier numbers reflect process metrics. **Process metrics drive outcome metrics.** Coach focus should be on Tiers 3–6 first.
 
-For isolated component measurement of each tier — establishing a personal baseline and tracking progression — see the [Steel Challenge Baseline Assessment Protocol](steel-baseline-assessment.md).
+For isolated component measurement of each tier — establishing a personal baseline and tracking progression — see the [SASP Baseline Assessment Protocol](steel-baseline-assessment.md).
 
 ---
 
-*Wilco Shooting Sports · Steel Challenge Performance Framework v0.1 · Draft*
+*Wilco Shooting Sports · SASP Performance Framework v0.1 · Draft*

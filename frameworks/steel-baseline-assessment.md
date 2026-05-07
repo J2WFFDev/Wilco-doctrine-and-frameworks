@@ -1,5 +1,5 @@
 ---
-title: "Steel Challenge Baseline Assessment Protocol"
+title: "SASP Baseline Assessment Protocol"
 document_type: "framework"
 status: "draft"
 version: "0.1"
@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - coaches
   - athletes
-summary: "A four-test isolated component assessment protocol for Steel Challenge athletes. Measures first-shot time, trigger cycle speed, transition speed, and applied full-stage execution, then combines them into a Theoretical Stage Time model and coaching score framework."
+summary: "A four-test isolated component assessment protocol for SASP athletes. Measures first-shot time, trigger cycle speed, transition speed, and applied full-stage execution, then combines them into a Theoretical Stage Time model and coaching score framework."
 related_documents:
   - "frameworks/steel-performance-framework.md"
   - "frameworks/execution-models.md"
@@ -26,7 +26,7 @@ tags:
   - draft
 ---
 
-# Steel Challenge Baseline Assessment Protocol
+# SASP Baseline Assessment Protocol
 
 > **Canonical terminology reference:** [doctrine/terminology.md](../doctrine/terminology.md)
 >
@@ -36,7 +36,7 @@ tags:
 
 ## Purpose
 
-This protocol isolates and measures the individual components of the Steel Challenge shooting sequence. Rather than analyzing a complete stage run, each test is designed to produce a clean measurement of one component at a time — free from the interference of other variables.
+This protocol isolates and measures the individual components of the SASP shooting sequence. Rather than analyzing a complete stage run, each test is designed to produce a clean measurement of one component at a time — free from the interference of other variables.
 
 The resulting measurements serve three purposes:
 
@@ -251,7 +251,7 @@ Validate whether isolated gains from Tests 1–3 appear in full-stage execution.
 
 ### Setup
 
-- Standard SaSP/Steel stage setup (e.g., Focus or equivalent)
+- Standard SASP stage setup (e.g., Focus or equivalent)
 - Athlete in normal competition flow and sequence
 - Remaining baseline loadout (typically 2–3 magazines/speed loaders)
 - Two-coach staffing preferred (Coach A runs sequence, Coach B logs scoring/notes)
@@ -375,4 +375,4 @@ This protocol supports comparison across:
 
 ---
 
-*Wilco Shooting Sports · Steel Challenge Baseline Assessment Protocol v0.1 · Draft*
+*Wilco Shooting Sports · SASP Baseline Assessment Protocol v0.1 · Draft*
