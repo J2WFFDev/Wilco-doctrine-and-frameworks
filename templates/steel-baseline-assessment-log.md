@@ -258,7 +258,7 @@ tags:
 
 > **Setup:** Use remaining 2–3 magazines/speed loaders. Run standard SASP/Steel stage strings in normal sequence. Capture timer data and observation scoring (1–5 scale).
 
-| Run # | String Time | Run Classification | Notes |
+| Run # | String Time | Run Outcome | Notes |
 |-------|------------|--------------------|-------|
 | 1 | | Clean / Sloppy / Recovery | |
 | 2 | | Clean / Sloppy / Recovery | |

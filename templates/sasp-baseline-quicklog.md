@@ -74,7 +74,7 @@ tags:
 | Test | Plan |
 |------|------|
 | Test 1 — Trigger Speed | 8–10 rounds, single target, one run unless invalid |
-| Test 2 — Transition Speed | 10 runs total (target 5 L→R and 5 R→L), 2 rounds per run, use 2 mags, **randomize starting direction (L or R)** |
+| Test 2 — Transition Speed | 10 runs total (5 L→R + 5 R→L), 2 rounds per run, use 2 mags, **randomize starting direction (L or R)** |
 | Test 3 — First Shot Time (Low Ready) | 8–10 single-shot reps |
 | Test 4 — Full Stage Runs | 3–5 strings, normal sequence |
 
@@ -153,7 +153,7 @@ tags:
 
 ### Test 4 — Full Stage Runs (Applied Validation)
 
-| Run # | String Time | Run Type *(Clean / Sloppy / Recovery)* | Notes |
+| Run # | String Time | Run Outcome *(Clean / Sloppy / Recovery)* | Notes |
 |-------|-------------|------------------------------------------|-------|
 | 1 | | | |
 | 2 | | | |

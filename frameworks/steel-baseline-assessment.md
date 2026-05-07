@@ -72,7 +72,7 @@ This protocol does not replace run classification or in-session coaching. It sup
 | Test | Round plan | Recommended loadout allocation |
 |------|------------|--------------------------------|
 | Test 1 — Trigger Speed | 8–10 shots, single run by default | 1 magazine/speed loader |
-| Test 2 — Transition Speed | 5 runs per direction (2 shots each; 10 shots per direction, 20 shots total) | 2 magazines/speed loaders total (one per direction, or mixed by direction as needed) |
+| Test 2 — Transition Speed | 10 runs total (5 L→R + 5 R→L), 2 shots each (20 shots total) | 2 magazines/speed loaders total (one per direction, or mixed by direction as needed) |
 | Test 3 — First-Target Acquisition | 8–10 single-shot reps | 1 magazine/speed loader |
 | Test 4 — Full Stage Runs | Remaining rounds for 3–5 full runs + observation scoring | 2–3 magazines/speed loaders |
 
@@ -170,8 +170,8 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 1. Athlete aims at the far-left target, finger on trigger, firearm ready
 2. On beep, fire one round at the far-left target, immediately transition to the far-right target, fire one round
 3. Record the total time from beep to second shot break; record the split time from the 1st shot to the 2nd shot as the **Inter-Target Transition Time (ITT)**
-4. Repeat 3–4 runs in this direction; average the results
-5. Reverse: start aimed at far-right target, transition left; repeat 3–4 runs; average
+4. Repeat 5 runs in this direction; average the results
+5. Reverse: start aimed at far-right target, transition left; repeat 5 runs; average
 - Note body positions and form
 
 > **Note on accuracy:** Hits are not required for this test. The athlete should fire in the general direction of each target. The purpose is speed measurement only. If accuracy significantly degrades, note it — it may indicate the athlete is pushing beyond a controlled threshold.
