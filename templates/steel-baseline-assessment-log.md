@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - athletes
   - coaches
-summary: "Data capture form for the Steel Challenge Baseline Assessment Protocol. Records raw shot timer data and calculated metrics for all three component tests, derives a Theoretical Stage Time, classifies the athlete against benchmarks, and supports longitudinal tracking across assessment dates."
+summary: "Data capture form for the Steel Challenge Baseline Assessment Protocol. Records raw shot timer data and calculated metrics for four tests, derives a Theoretical Stage Time, captures applied full-stage findings, and supports longitudinal tracking across assessment dates."
 related_documents:
   - "frameworks/steel-baseline-assessment.md"
   - "frameworks/steel-performance-framework.md"
@@ -52,6 +52,9 @@ tags:
 | **Ammunition** | Brand / Load / Bullet Weight |
 | **Trigger Pull Weight** | |
 | **Optic / Sights** | |
+| **Baseline loadout prepared** | ☐ 6×10 ideal  ☐ 5×8 alternative  ☐ Other: ____ |
+| **Extra contingency mag/loader available** | ☐ Yes  ☐ No |
+| **Two-coach staffing used** | ☐ Yes (Sequence + Logger)  ☐ No |
 | **Equipment changes since last assessment** | ☐ None  ☐ Yes — describe in Coach Notes |
 
 ---
@@ -71,9 +74,21 @@ tags:
 
 ---
 
+## Loadout Plan by Test (Pre-Run Check)
+
+| Test | Planned rounds | Magazine / loader count | Direction plan / notes |
+|------|----------------|-------------------------|------------------------|
+| Test 1 — Trigger Speed | 8–10 | 1 | |
+| Test 2 — Transition Speed | 20 total *(5 L→R runs + 5 R→L runs at 2 shots each)* | 2 | ☐ Mag 1 L→R, Mag 2 R→L  ☐ Mixed directions across both mags |
+| Test 3 — First-Target Acquisition | 8–10 | 1 | |
+| Test 4 — Full Stage Runs | Remaining baseline loadout | 2–3 | |
+| Contingency reload | As available | 1 extra | |
+
+---
+
 ## Part 3: Test 1 — Trigger Speed Test (Rapid Fire)
 
-> **Setup:** Firearm loaded — full magazine. Aimed at single target. Finger on trigger. On beep, fire all rounds as fast as possible. Coach records all split times from shot timer.
+> **Setup:** Firearm loaded (8–10 rounds). Aimed at single target from the shooter's box. Finger on trigger. On beep, fire all rounds as fast as possible. Coach records all split times from shot timer. Default protocol is one run unless the run is invalid (instruction misunderstood, timer issue, or setup issue).
 
 ### Run 1 Raw Data
 
@@ -96,7 +111,7 @@ tags:
 | 15 | | |
 | *(add rows as needed)* | | |
 
-> **Note:** Elapsed Time = cumulative time from beep. Split Time = this shot's elapsed time minus the previous shot's elapsed time. Shot 1 Split Time is blank — it is the IST.
+> **Note:** Elapsed Time = cumulative time from beep. Split Time = this shot's elapsed time minus the previous shot's elapsed time. In Test 1, split time represents the trigger press cycle only. Shot 1 Split Time is blank — it is the First Shot Time.
 
 ### Run 2 Raw Data
 
@@ -149,12 +164,12 @@ tags:
 | Metric | Run 1 | Run 2 | Run 3 | **Best Run** |
 |--------|-------|-------|-------|-------------|
 | Total shots fired | | | | |
-| Initial Shot Time (IST) — Shot 1 elapsed | | | | |
+| First Shot Time — Shot 1 elapsed | | | | |
 | Sum of all split times | | | | |
 | Number of splits (= shots − 1) | | | | |
 | **Average Split Time** (Sum ÷ Count) | | | | |
 | **Fastest Split Time** (lowest single split) | | | | |
-| **Reaction Time** (IST − Avg Split Time) | | | | |
+| **Reaction Time** (First Shot Time − Avg Split Time) | | | | |
 
 ---
 
@@ -175,14 +190,14 @@ tags:
 
 ## Part 4: Test 2 — Transition Speed Test
 
-> **Setup:** Wide target array (e.g., Focus stage). Firearm loaded. Aimed at the starting target. Finger on trigger. On beep, fire one round on the starting target and immediately transition to the far target and fire one round. Record the split time between shot 1 and shot 2 as the **Inter-Target Transition Time (ITT)**. Repeat in both directions.
+> **Setup:** Wide target array (e.g., Focus stage). Firearm loaded. Aimed at the starting target from the shooter's box. Finger on trigger. On beep, fire one round on the starting target and immediately transition to the far target and fire one round. Record the split time between shot 1 and shot 2 as the **Inter-Target Transition Time (ITT)**. Repeat in both directions.
 
 > **Primary method — ITT (direct split read):** Read the split time between shot 1 and shot 2 directly from the timer.
-> **Cross-check — ITT (derived):** Total run time − Athlete's IST (from Test 1 Best Run). Both methods should produce the same result.
+> **Cross-check — ITT (derived):** Total run time − Athlete's First Shot Time (from Test 1 Best Run). Both methods should produce the same result.
 
 ### Left-to-Right Runs
 
-| Run # | Total Time (beep to 2nd shot) | Split Time (1st→2nd shot) | − IST cross-check | = ITT |
+| Run # | Total Time (beep to 2nd shot) | Split Time (1st→2nd shot) | − First Shot Time cross-check | = ITT |
 |-------|------------------------------|--------------------------|-------------------|-------|
 | L→R Run 1 | | | | |
 | L→R Run 2 | | | | |
@@ -192,7 +207,7 @@ tags:
 
 ### Right-to-Left Runs
 
-| Run # | Total Time (beep to 2nd shot) | Split Time (1st→2nd shot) | − IST cross-check | = ITT |
+| Run # | Total Time (beep to 2nd shot) | Split Time (1st→2nd shot) | − First Shot Time cross-check | = ITT |
 |-------|------------------------------|--------------------------|-------------------|-------|
 | R→L Run 1 | | | | |
 | R→L Run 2 | | | | |
@@ -219,7 +234,7 @@ tags:
 
 ## Part 5: Test 3 — First-Target Acquisition Test (Low-Ready "1st Shot Time")
 
-> **Setup:** Firearm loaded. Held at low-ready (firearm pointed down ~45°, grip established, finger outside trigger guard). On beep, raise to target and fire one shot. Record elapsed time from beep to shot break.
+> **Setup:** Firearm loaded (8–10 rounds). Held at low-ready (firearm pointed down ~45°, grip established, finger outside trigger guard). On beep, raise to target and fire one shot. Record elapsed time from beep to shot break.
 
 | Run # | Time (sec) |
 |-------|-----------|
@@ -233,6 +248,32 @@ tags:
 |--------|-------|
 | **Average First-Target Acquisition Time** | |
 | **Fastest First-Target Acquisition Time** | |
+| **Derived First-Shot Transition Time** *(Avg Test 3 First Shot Time − Avg Test 1 Trigger Press − Avg Test 1 Reaction Time)* | |
+
+---
+
+## Part 5B: Test 4 — Full Stage Runs (Applied Validation)
+
+> **Setup:** Use remaining 2–3 magazines/speed loaders. Run standard SaSP/Steel stage strings in normal sequence. Capture timer data and observation scoring (1–5 scale).
+
+| Run # | String Time | Run Classification | Notes |
+|-------|------------|--------------------|-------|
+| 1 | | Clean / Sloppy / Recovery | |
+| 2 | | Clean / Sloppy / Recovery | |
+| 3 | | Clean / Sloppy / Recovery | |
+| 4 *(optional)* | | Clean / Sloppy / Recovery | |
+| 5 *(optional)* | | Clean / Sloppy / Recovery | |
+
+### Test 4 Applied Scoring (1–5)
+
+| Observation Area | Score (1–5) | Notes |
+|------------------|-------------|-------|
+| Stage prep quality (6 sight pictures / intent) | | |
+| Stop plate execution quality | | |
+| Shot-call execution quality | | |
+| On-deck readiness effectiveness | | |
+| Between-string decision quality | | |
+| Run-to-run consistency | | |
 
 ---
 
@@ -242,7 +283,7 @@ tags:
 
 | Component | Measured Value | Unit |
 |-----------|---------------|------|
-| Initial Shot Time (IST) | | sec |
+| First Shot Time | | sec |
 | Average Split Time (trigger cycle) | | sec |
 | Fastest Split Time (trigger cycle) | | sec |
 | Derived Reaction Time | | sec |
@@ -322,7 +363,7 @@ Potential gain (seconds):  ________ sec
 
 > *Copy this row each time a new assessment is completed. Keep all dates in this table for longitudinal comparison.*
 
-| Assessment Date | IST | Avg Split | Fastest Split | Reaction | Avg ITT | L→R ITT | R→L ITT | FTAT (avg) | Serial TST | Parallel TST | Classification |
+| Assessment Date | First Shot | Avg Split | Fastest Split | Reaction | Avg ITT | L→R ITT | R→L ITT | FTAT (avg) | Serial TST | Parallel TST | Classification |
 |----------------|-----|-----------|--------------|----------|---------|---------|---------|-----------|-----------|-------------|---------------|
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
@@ -330,7 +371,7 @@ Potential gain (seconds):  ________ sec
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
 
-> **Column key:** IST = Initial Shot Time · FTAT = First-Target Acquisition Time · ITT = Inter-Target Transition Time · TST = Theoretical Stage Time
+> **Column key:** First Shot = First Shot Time · FTAT = First-Target Acquisition Time · ITT = Inter-Target Transition Time · TST = Theoretical Stage Time
 
 ---
 
@@ -443,6 +484,19 @@ Potential gain (seconds):  ________ sec
 
 **Final Coach Notes:**
 > *(Synthesis of session performance, key observations, and recommended focus for the next training block.)*
+
+---
+
+## Part 12B: Coaching Findings Taxonomy
+
+> *Categorize findings so the follow-up plan separates common repeatable coaching actions from rare advanced or equipment-specific cases.*
+
+| Findings Category | % / Priority | Notes / Actions |
+|-------------------|--------------|-----------------|
+| Repeatable mistakes with known corrective practice actions | Target ~80% | |
+| Advanced / rare / unique technique findings | Small subset | |
+| Equipment behavior findings *(springs, extractor, cycling faults, etc.)* | Small subset | |
+| Master-level, outside-the-box insights | Very rare | |
 
 ---
 

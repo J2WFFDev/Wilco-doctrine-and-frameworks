@@ -145,6 +145,14 @@ Coaching trigger method selection requires understanding the athlete's current l
 
 **Mulligan management (rimfire only):** A mulligan exists to address ammo inconsistency — not shooter-induced malfunctions. Coaching mulligan management means helping athletes evaluate: Was the request appropriate? Did they attempt to clear and continue? Was there intel from the gun's post-malfunction behavior? Is retaining a good run the right risk-reward call? RSOs and coaches may assist with the evaluation.
 
+**Coaching findings taxonomy (for session notes):**
+- ~80%: repeatable mistakes with known corrective practice actions (primary coaching workload)
+- small subset: advanced/rare/unique technique findings
+- small subset: equipment-behavior findings (springs, extractor/cycling issues, etc.) tied to equipment fault tracking
+- very rare: master-level outside-the-box insights
+
+Use this taxonomy in post-session notes so common corrective actions stay actionable while rare findings are still captured.
+
 ---
 
 *Wilco Shooting Sports · Coach Guide v0.1 · Draft*

@@ -9,7 +9,7 @@ organization: "Wilco Shooting Sports"
 audience:
   - coaches
   - athletes
-summary: "A three-test isolated component assessment protocol for Steel Challenge athletes. Measures reaction time, trigger cycle speed, transition speed, and presentation time independently, then combines them into a Theoretical Stage Time model. Establishes a personal performance baseline and tracks progression over time."
+summary: "A four-test isolated component assessment protocol for Steel Challenge athletes. Measures first-shot time, trigger cycle speed, transition speed, and applied full-stage execution, then combines them into a Theoretical Stage Time model and coaching score framework."
 related_documents:
   - "frameworks/steel-performance-framework.md"
   - "frameworks/execution-models.md"
@@ -55,11 +55,28 @@ This protocol does not replace run classification or in-session coaching. It sup
 - Shot timer (audible start signal)
 - Target array appropriate to each test (described per test):
   - **Tests 1 and 3:** One target at a safe distance (stage-typical: 7–10 yards)
-  - **Test 2:** Wide stage array with targets at the full lateral range of a typical Steel stage (e.g., Focus); use the same wide stage for all three tests if available, to standardize conditions
-- Loaded magazines — at least one full magazine per test run
+  - **Test 2:** Wide stage array with targets at the full lateral range of a typical Steel stage (e.g., Focus); use the same wide stage for Tests 1–3 if available, to standardize conditions
+- Magazine / speed-loader loadout prepared before evaluation (per discipline tested):
+  - **Ideal baseline loadout:** 6 complete magazines or speed loaders, loaded with **10 rounds each** when equipment allows
+  - **Acceptable alternative loadout:** 5 complete magazines or speed loaders, loaded with **8 rounds each** for lower-capacity platforms
+  - **Minimum baseline requirement:** enough preloaded ammunition to complete all four tests without reloading on the clock (see allocation guide below)
+  - Keep at least one additional loaded magazine/speed loader available as contingency in case of dropped magazine, unexpected misses, or restart needs
 - Athlete in full competition-legal gear (firearm — same setup used in matches)
-- Coach or training partner to record times
+- Two-coach staffing recommended for speed and quality:
+  - **Coach A:** runs sequence, enforces safety/process, and cues athlete
+  - **Coach B:** records timer data, scores observations, and logs notes in real time
 - Log sheet
+
+### Suggested Loadout Allocation by Test
+
+| Test | Round plan | Recommended loadout allocation |
+|------|------------|--------------------------------|
+| Test 1 — Trigger Speed | 8–10 shots, single run by default | 1 magazine/speed loader |
+| Test 2 — Transition Speed | 10 total shots per direction (5 runs × 2 shots) | 2 magazines/speed loaders total (one per direction, or mixed by direction as needed) |
+| Test 3 — First-Target Acquisition | 8–10 single-shot reps | 1 magazine/speed loader |
+| Test 4 — Full Stage Runs | Remaining rounds for 3–5 full runs + observation scoring | 2–3 magazines/speed loaders |
+
+> **Planning note:** For most athletes, 6×10 is ideal. 5×8 can still run the baseline, but with less margin for extra runs or contingency.
 
 ---
 
@@ -69,17 +86,17 @@ This protocol does not replace run classification or in-session coaching. It sup
 
 Isolate the athlete's trigger mechanics from all other variables. Measure:
 
-- **Initial Shot Time (IST)** — reaction time plus the mechanical response to the beep
+- **First Shot Time (1st Shot Time)** — reaction time plus the mechanical response to the beep
 - **Split Times** — the trigger cycle speed between consecutive shots
 - **Average Split Time** — the athlete's sustainable mechanical pace
 - **Fastest Split Time** — the athlete's mechanical ceiling
-- **Reaction Time** — the neurological component of IST, derived by calculation
+- **Reaction Time** — the neurological component of First Shot Time, derived by calculation
 
 ### Setup
 
-- One target of a wide stage like Focus; no accuracy requirement beyond keeping all rounds on or near target
+- One target at safe stage-typical distance (7–10 yards); no accuracy requirement beyond keeping all rounds on or near target
 - Firearm loaded with a full magazine; firearm aimed at the target; finger on trigger
-- Shooter is at the line, ready; no low ready involved
+- Shooter is in the shooter's box, ready; no low ready involved
 - Shot timer positioned to capture all shots
 
 > **Context note on split time:** In this test, the split time isolates the pure trigger press cycle — engage slack, reach the wall, prep, prep, prep, break, reset. No transition or recoil movement is involved. This is the most controlled measurement of mechanical trigger speed.
@@ -89,14 +106,14 @@ Isolate the athlete's trigger mechanics from all other variables. Measure:
 1. Athlete establishes grip, stance, and sight picture — finger on trigger, aimed at target
 2. Coach signals to timer operator: "Shooter Ready"
 3. On the beep, athlete fires every round in the magazine as fast as possible, keeping all rounds in the general target area
-4. Timer captures the full string; coach records total time, # of shots recorded, 1st shot time and all split times as displayed on the timer
-5. Repeat 2–3 times; use the best run for primary analysis, record all runs for context
+4. Timer captures the full string; coach records total time, # of shots recorded, First Shot Time and all split times as displayed on the timer
+5. Default protocol is **one run only**. Repeat only if instructions were not understood, timer capture failed, or safety/process setup was invalid.
 
 ### Measurements Recorded
 
 | Measurement | How Recorded |
 |-------------|-------------|
-| Initial Shot Time (IST) | Time from beep to first shot break |
+| First Shot Time (1st Shot Time) | Time from beep to first shot break |
 | Split times (all) | Time between each consecutive shot break |
 | Total shots fired | Count from the string |
 | Total string time | Time from beep to last shot break |
@@ -107,9 +124,11 @@ Isolate the athlete's trigger mechanics from all other variables. Measure:
 |-------------|---------|
 | Average Split Time | Sum of all split times ÷ number of splits |
 | Fastest Split Time | The lowest single split time recorded |
-| Reaction Time | IST − Average Split Time |
+| Reaction Time | First Shot Time − Average Split Time |
 
-> **Note on Reaction Time:** The average split time represents the athlete's mechanical trigger cycle time at pace. Subtracting it from the IST removes the mechanical component, leaving the neurological reaction delay. This is an approximation — not a laboratory measurement — but it is consistent and comparable across sessions.
+> **Note on Reaction Time:** The timer start beep is a randomized countdown (typically 1–3 seconds), which reduces athlete ability to predict the start from human cues. Watch for start cheating indicators: finger creeping into trigger guard/onto trigger before beep, or muzzle movement off start-cone position before beep. The average split time represents mechanical trigger cycle time; subtracting it from First Shot Time approximates neurological reaction delay.
+>
+> **Benchmark placeholder:** Reaction Time benchmark bands are **TBD** and will be added after sufficient field data is collected.
 
 ### Benchmark Classifications
 
@@ -143,7 +162,7 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 - Wide stage with targets at the far left and far right of the array (a stage like *Focus* works well; targets should be separated by the full lateral range of a typical Steel stage)
 - Firearm loaded; aimed at the starting target; finger on trigger
-- Shooter at the line in competition stance
+- Shooter in the shooter's box in competition stance
 - Shot timer ready
 
 ### Procedure
@@ -167,12 +186,12 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 ### Calculations
 
-Two methods produce the same ITT value — use the split-time read as the primary and the subtract-IST method as a cross-check against Test 1:
+Two methods produce the same ITT value — use the split-time read as the primary and the subtract-First-Shot-Time method as a cross-check against Test 1:
 
 | Calculation | Formula | Method |
 |-------------|---------|--------|
 | ITT (direct) | Split time: 2nd shot elapsed − 1st shot elapsed | **Primary** — read directly from timer |
-| ITT (derived) | Total run time − IST (from Test 1 Best Run) | Cross-check — validates against Test 1 IST |
+| ITT (derived) | Total run time − First Shot Time (from Test 1 Best Run) | Cross-check — validates against Test 1 |
 | Average ITT (L→R) | Average of all L→R ITT values | |
 | Average ITT (R→L) | Average of all R→L ITT values | |
 | Overall Average ITT | Average of all runs across both directions | Used in Theoretical Stage Time formula |
@@ -191,7 +210,7 @@ Combined with values from Test 1, the presentation movement can be isolated:
 
 First-Target Acquisition Time is typically the **first and most accessible place to reduce time in a clean run** — small improvements here apply directly to every string. Understanding its sub-components enables a targeted coaching plan.
 
-Combined with values from all three tests, it completes the Theoretical Stage Time model.
+Combined with values from Tests 1 and 2, it completes the isolated component model before Test 4 applied validation.
 
 ### Setup
 
@@ -218,6 +237,40 @@ Combined with values from all three tests, it completes the Theoretical Stage Ti
 |-------------|---------|
 | Average Low-Ready First Shot Time | Sum of all runs ÷ number of runs |
 | Fastest Low-Ready First Shot Time | Lowest single run time |
+| Derived First-Shot Transition Time (low ready → first target) | Avg First Shot Time (Test 3) − Avg Trigger Press Time (Test 1) − Avg Reaction Time (Test 1) |
+
+> **Clarification:** This derived formula is correct for coaching decomposition. It estimates the movement/presentation component from low ready to first target. Use average values when available for stability.
+
+---
+
+## Test 4: Full Stage Runs (Applied Validation)
+
+### Purpose
+
+Validate whether isolated gains from Tests 1–3 appear in full-stage execution. This test captures applied decision quality, consistency under match-like flow, and observation-based coaching scores.
+
+### Setup
+
+- Standard SaSP/Steel stage setup (e.g., Focus or equivalent)
+- Athlete in normal competition flow and sequence
+- Remaining baseline loadout (typically 2–3 magazines/speed loaders)
+- Two-coach staffing preferred (Coach A runs sequence, Coach B logs scoring/notes)
+
+### Procedure
+
+1. Athlete shoots 3–5 full stage runs
+2. Record string times and classify run quality
+3. Complete observation scoring (1–5 scale) for stage prep, shot-call execution, stop-plate execution, on-deck readiness, between-string behavior, and other baseline observation items
+4. Capture final coaching notes tied to repeatable findings and corrective actions
+
+### Measurements Recorded
+
+| Measurement | How Recorded |
+|-------------|-------------|
+| Full string time | Timer |
+| Run quality | Coach classification (clean / sloppy / recovery) |
+| Observation scores (1–5) | Log form scoring rows |
+| Final coaching notes | Coach narrative synthesis |
 
 ---
 
@@ -225,7 +278,7 @@ Combined with values from all three tests, it completes the Theoretical Stage Ti
 
 ### Overview
 
-Once the three tests are complete, the individual components can be combined to calculate a **Theoretical Stage Time** for a given stage layout. This model shows how the athlete's measured components would add up if performed in sequence.
+Once the first three isolated tests are complete, the individual components can be combined to calculate a **Theoretical Stage Time** for a given stage layout. Test 4 then validates those component findings in full-stage execution. This model shows how the athlete's measured components would add up if performed in sequence.
 
 The model has two versions:
 
@@ -301,7 +354,7 @@ Each component that improves reduces stage time proportionally:
 
 For each assessment date, record and compare:
 
-- IST
+- First Shot Time
 - Average and fastest split time
 - Derived reaction time
 - Average ITT (by direction and overall)

@@ -118,13 +118,15 @@ The elapsed time between any two consecutive shot breaks. Measured from one shot
 
 Split time is always a raw timer measurement; interpreting it correctly requires knowing what sub-tasks occurred between the two shots.
 
-### Initial Shot Time (IST)
-The elapsed time from the start signal (audible beep) to the first shot break. IST includes the athlete's neurological reaction time plus any presentation movement required (e.g., from low-ready or from holster). IST is recorded separately from subsequent split times.
+### First Shot Time (1st Shot Time)
+The elapsed time from the start signal (audible beep) to the first shot break. First Shot Time includes the athlete's neurological reaction time plus any presentation movement required (e.g., from low-ready or from holster), plus the trigger cycle needed to fire the first shot. First Shot Time is recorded separately from subsequent split times.
+
+> **Legacy alias:** Initial Shot Time (IST). The program standard term is now **First Shot Time**.
 
 ### Reaction Time
-The neurological component of the Initial Shot Time — the delay between receiving the start signal and the beginning of a physical response. Calculated by subtracting the average split time (or fastest split time) from the Initial Shot Time. Reaction time cannot be measured directly; it is derived from the difference between IST and the shooter's mechanical trigger speed.
+The neurological component of First Shot Time — the delay between receiving the start signal and the beginning of a physical response. Calculated by subtracting the average split time (or fastest split time) from First Shot Time. Reaction time cannot be measured directly; it is derived from the difference between First Shot Time and the shooter's mechanical trigger speed.
 
-> **Formula:** Reaction Time = IST − Average Split Time
+> **Formula:** Reaction Time = First Shot Time − Average Split Time
 
 ### Transition Time
 An umbrella term for the two distinct time components that involve moving the muzzle to a new target. Because their sub-components differ, they are named and measured separately:
