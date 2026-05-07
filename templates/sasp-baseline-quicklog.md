@@ -1,14 +1,14 @@
 ---
-title: "SASP Baseline Assessment — Quick Log (Print Format)"
+title: "SASP Baseline Assessment — Quick Log (Form Spec)"
 document_type: "template"
 status: "draft"
-version: "0.1"
+version: "0.2"
 last_updated: "2026-05-07"
 author: "Coach Jim West"
 organization: "Wilco Shooting Sports"
 audience:
   - coaches
-summary: "Condensed single-sheet (front/back) data capture form for the SASP Baseline Assessment. Designed for field use during evaluation sessions. Transfer key values to the full log after the session."
+summary: "Condensed front/back quicklog content spec for SASP baseline evaluations. Intended as a handoff-ready layout draft for PDF/image form production and field use."
 related_documents:
   - "templates/steel-baseline-assessment-log.md"
   - "frameworks/steel-baseline-assessment.md"
@@ -20,176 +20,198 @@ tags:
   - baseline
   - steel-sasp
   - quick-log
-  - print
+  - form-spec
   - draft
 ---
 
-<!--
-  PRINT INSTRUCTIONS
-  ──────────────────
-  Front side: Header · Bio-Condition · Loadout · Test 1 · Test 2
-  Back  side: Test 3 · Test 4 Applied Scores · Composite Summary · Coaching Notes
-  Recommended paper: US Letter, landscape orientation, 10pt font or smaller
-  Full detail log: templates/steel-baseline-assessment-log.md
--->
+# SASP Baseline Assessment — Quick Log (Front/Back Form Spec)
+
+> **Purpose:** This file is a content and structure spec for a printable front/back form (PDF or image).  
+> **Protocol ref:** frameworks/steel-baseline-assessment.md
 
 ---
 
-# SASP Baseline Assessment — Quick Log
-
-**Protocol ref:** frameworks/steel-baseline-assessment.md
-
----
-
-## ─── FRONT ────────────────────────────────────────────────────────────────────
+## FRONT
 
 ### Header
 
-| Athlete | Date | Range | Division | Level |
-|---------|------|-------|----------|-------|
-| | | | | Fnd / Int / Sr |
-
-| Firearm (make/model/cal) | Ammo | Trigger wt | Optic/Sights |
-|--------------------------|------|-----------|-------------|
+| Athlete | Date | Range / Location | Stage |
+|--------|------|------------------|-------|
 | | | | |
 
-| Coach A (sequence) | Coach B (logger) | Assessment type |
-|--------------------|-----------------|-----------------|
-| | | ☐ Initial  ☐ Reassess  ☐ Post-Interv  ☐ Equip Chg |
+| Division | Class |
+|----------|-------|
+| ☐ Rookie  ☐ Intermediate  ☐ Senior  ☐ Collegiate *(N/A for this program)* | Intermediate: ☐ Entry ☐ Advanced  ·  Senior: ☐ Junior Varsity ☐ Varsity  ·  Rookie/Collegiate: N/A |
 
-| Loadout | Contingency mag |
-|---------|----------------|
-| ☐ 6×10   ☐ 5×8   ☐ Other: ____ | ☐ Yes  ☐ No |
+| Discipline (Firearm) |
+|----------------------|
+| **Rifles:** ☐ RFRI ☐ RFRO ☐ PCC  ·  **Rimfire Pistols:** ☐ RFPI ☐ RFPO  ·  **Centerfire Pistols:** ☐ CP *(legacy: CPI)* ☐ CPO ☐ 1911 ☐ Ultimate Pistol  ·  **Revolvers:** ☐ RRI ☐ CRI |
 
----
+| Ammunition |
+|------------|
+| ☐ 22LR  ☐ 9MM  ☐ .38 |
 
-### Bio-Condition *(1 = well below normal · 3 = normal · 5 = above normal)*
+| Evaluation Team (header capture) |
+|----------------------------------|
+| |
 
-| Sleep | Nutrition/Hydration | Physical | Mental | Stress (↓=less) | Overall |
-|-------|---------------------|----------|--------|-----------------|---------|
-| /5 | /5 | /5 | /5 | /5 | /5 |
-
----
-
-### Loadout Plan
-
-| Test | Rounds | Mags | Notes |
-|------|--------|------|-------|
-| T1 Trigger Speed | 8–10 | 1 | |
-| T2 Transition | 20 total (5 L→R + 5 R→L × 2 shots) | 2 | ☐ Mag1 L→R / Mag2 R→L  ☐ Mixed |
-| T3 1st Shot | 8–10 | 1 | |
-| T4 Stage Runs | Remaining | 2–3 | |
-| Contingency | — | 1 extra | |
+| Bio-Condition Scale Legend |
+|----------------------------|
+| 1 = significantly below normal · 2 = below normal · 3 = normal · 4 = above normal · 5 = notably above normal |
 
 ---
 
-### Test 1 — Trigger Speed (Rapid Fire, single target, shooter's box, finger on trigger)
-*Default: 1 run. Repeat only if run was invalid.*
+### Bio-Condition
 
-| Shot | Elapsed | Split || Shot | Elapsed | Split |
-|------|---------|-------||------|---------|-------|
-| 1 (FST) | | — || 6 | | |
-| 2 | | || 7 | | |
-| 3 | | || 8 | | |
-| 4 | | || 9 | | |
-| 5 | | || 10 | | |
-
-| Avg Split Time | Fastest Split | First Shot Time (FST) | Reaction Time (FST − Avg Split) |
-|----------------|-------------|----------------------|--------------------------------|
-| | | | |
-
-**Benchmark:** World Class ≤0.13  Senior <0.20  Intermediate 0.20–0.30  Rookie 0.30–0.50 — **Athlete:** ____________
+| Sleep | Nutrition/Hydration | Physical Readiness | Mental Readiness | Stress *(lower = better)* | Overall |
+|------|----------------------|--------------------|------------------|---------------------------|---------|
+| | | | | | |
 
 ---
 
-### Test 2 — Transition Speed (Wide array, finger on trigger, 2-shot runs each direction)
+### Test Plan
 
-| Run | Total | ITT split | Dir || Run | Total | ITT split | Dir |
-|-----|-------|-----------|-----||-----|-------|-----------|-----|
-| 1 | | | L→R || 6 | | | R→L |
-| 2 | | | L→R || 7 | | | R→L |
-| 3 | | | L→R || 8 | | | R→L |
-| 4 | | | L→R || 9 | | | R→L |
-| 5 | | | L→R || 10 | | | R→L |
-
-| Avg ITT L→R | Avg ITT R→L | Overall Avg ITT | Faster dir |
-|-------------|-------------|----------------|-----------|
-| | | | ☐ L→R  ☐ R→L  ☐ Equal |
+| Test | Plan |
+|------|------|
+| Test 1 — Trigger Speed | 8–10 rounds, single target, one run unless invalid |
+| Test 2 — Transition Speed | 10 runs total (5 each direction), 2 rounds per run, use 2 mags, **randomize starting direction (L or R)** |
+| Test 3 — First Shot Time (Low Ready) | 8–10 single-shot reps |
+| Test 4 — Full Stage Runs | 3–5 strings, normal sequence |
 
 ---
 
-## ─── BACK ─────────────────────────────────────────────────────────────────────
+### Test 1 — Trigger Speed
 
-### Test 3 — First Shot Time from Low Ready (1 shot per run, 8–10 reps)
+**Setup:** Before beep, finger on trigger and sights on a single target. On beep, fire all rounds as fast as possible. Record elapsed and split values.
 
-| Run | Time || Run | Time || Run | Time || Run | Time || Run | Time |
-|-----|------||-----|------||-----|------||-----|------||-----|------|
-| 1 | || 3 | || 5 | || 7 | || 9 | |
-| 2 | || 4 | || 6 | || 8 | || 10 | |
+| Shot # | Elapsed Time (sec) | Split Time (sec) |
+|--------|--------------------|------------------|
+| 1 (First Shot Time) | | — |
+| 2 | | |
+| 3 | | |
+| 4 | | |
+| 5 | | |
+| 6 | | |
+| 7 | | |
+| 8 | | |
+| 9 | | |
+| 10 | | |
 
-| Avg 1st Shot Time (Test 3) | Fastest | Derived Transition Time *(T3 avg − T1 avg split − T1 reaction)* |
-|----------------------------|---------|----------------------------------------------------------------|
-| | | |
+| Test 1 Summary | Value |
+|----------------|-------|
+| Average Split Time | |
+| Fastest Split Time | |
+| First Shot Time | |
+| Derived Reaction Time *(First Shot Time − Average Split)* | |
 
 ---
 
-### Test 4 — Full Stage Runs (Applied Validation, remaining loadout)
+### Test 2 — Transition Speed
 
-| Run | Time | Class *(C/S/R)* | Notes |
-|-----|------|-----------------|-------|
+**Setup:** Two-shot runs across wide array. Use two magazines and randomize starting direction (Left or Right) at the start of the sequence.
+
+| Run # | Direction | Total Time (beep→2nd shot) | Transition Split (shot 1→shot 2) |
+|-------|-----------|----------------------------|-----------------------------------|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
+| 6 | | | |
+| 7 | | | |
+| 8 | | | |
+| 9 | | | |
+| 10 | | | |
+
+| Test 2 Summary | Value |
+|----------------|-------|
+| Avg Transition Split (L→R) | |
+| Avg Transition Split (R→L) | |
+| Overall Avg Transition Split | |
+
+---
+
+## BACK
+
+### Test 3 — First Shot Time from Low Ready
+
+| Run # | Time (sec) | Run # | Time (sec) |
+|-------|------------|-------|------------|
+| 1 | | 6 | |
+| 2 | | 7 | |
+| 3 | | 8 | |
+| 4 | | 9 | |
+| 5 | | 10 | |
+
+| Test 3 Summary | Value |
+|----------------|-------|
+| Avg First Shot Time (Low Ready) | |
+| Fastest First Shot Time (Low Ready) | |
+| Derived First-Shot Transition Time *(Avg Test 3 First Shot − Avg Test 1 Split − Avg Test 1 Reaction)* | |
+
+---
+
+### Test 4 — Full Stage Runs (Applied Validation)
+
+| Run # | String Time | Run Type *(Clean / Sloppy / Recovery)* | Notes |
+|-------|-------------|------------------------------------------|-------|
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
 | 4 | | | |
 | 5 | | | |
 
-*C = Clean · S = Sloppy · R = Recovery*
+---
 
-**Applied Observation Scores (1–5):**
+### Applied Observations (Score each 1–5)
 
-| Stage Prep | Stop Plate | Shot Calls | On-Deck | Between-String | Consistency |
-|-----------|-----------|-----------|---------|----------------|-------------|
-| /5 | /5 | /5 | /5 | /5 | /5 |
+| Observation Area | Score (1–5) | Notes |
+|------------------|-------------|-------|
+| Stage preparation quality (6 sight pictures + plan intent) | | |
+| Sight picture quality / target acquisition discipline | | |
+| Shot-call technique execution | | |
+| Shot-call accuracy (call vs outcome) | | |
+| Stop plate execution quality | | |
+| On-deck readiness effectiveness | | |
+| Trigger method consistency for context | | |
+| Between-string decision quality | | |
+| Mulligan decision quality *(rimfire only, if applicable)* | | |
+| Run-to-run consistency | | |
 
 ---
 
 ### Composite Summary
 
-| First Shot Time (T1) | Avg Split | Fastest Split | Reaction Time | Avg ITT (L→R) | Avg ITT (R→L) | Overall Avg ITT | Avg 1st Shot (T3) | Fastest 1st Shot |
-|----------------------|-----------|-------------|--------------|--------------|--------------|----------------|-------------------|-----------------|
-| | | | | | | | | |
+| Component | Value |
+|----------|-------|
+| First Shot Time (Test 1) | |
+| Avg Split Time (Test 1) | |
+| Fastest Split Time (Test 1) | |
+| Derived Reaction Time (Test 1) | |
+| Avg Transition Split L→R (Test 2) | |
+| Avg Transition Split R→L (Test 2) | |
+| Overall Avg Transition Split (Test 2) | |
+| Avg First Shot Time Low Ready (Test 3) | |
+| Fastest First Shot Time Low Ready (Test 3) | |
 
-**Serial Theoretical Stage Time:** FST + ( ___ × Avg ITT) + ( ___ × Avg Split) = ________ sec
-
-**Parallel Theoretical Stage Time:** FST + ( ___ × max[ITT, Fastest Split]) = ________ sec
-
-**Split benchmark classification:** ____________________
-
-**Primary development priority from this session:**
-
----
-
-### Coaching Notes
-
-| Category | Finding | Corrective action / note |
-|----------|---------|--------------------------|
-| ☐ Repeatable (80%) | | |
-| ☐ Repeatable (80%) | | |
-| ☐ Repeatable (80%) | | |
-| ☐ Advanced/Rare | | |
-| ☐ Equipment behavior | | |
-| ☐ Master-level insight | | |
-
-**Final synthesis / recommended focus:**
-
+| Theoretical Stage Time | Calculation / Result |
+|------------------------|----------------------|
+| Serial Model | First Shot + ( ___ × Avg Transition Split ) + ( ___ × Avg Split ) = ______ sec |
+| Parallel Model | First Shot + ( ___ × max[Avg Transition Split, Fastest Split] ) = ______ sec |
 
 ---
 
-| **Coach A** | **Coach B** | **Date reviewed** | **Next reassessment** |
-|-------------|-------------|------------------|-----------------------|
-| | | | |
+### Coach Evaluation Feedback
+
+- 
+- 
+- 
+- 
+
+**Evaluator providing final feedback:** ______________________________  
+**Date reviewed:** ______________________________
 
 ---
 
-*Wilco Shooting Sports · SASP Baseline Assessment Quick Log v0.1 · Draft*
+*Wilco Shooting Sports · SASP Baseline Assessment Quick Log Form Spec v0.2 · Draft*  
 *Full detail form: templates/steel-baseline-assessment-log.md*
