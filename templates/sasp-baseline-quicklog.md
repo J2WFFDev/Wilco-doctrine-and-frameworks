@@ -110,6 +110,8 @@ tags:
 
 **Setup:** Two-shot runs across wide array. Use two magazines and randomize starting direction (Left or Right) at the start of the sequence.
 
+**Randomization tracked:** ☐ Yes  ☐ No  ·  **Starting direction used:** ☐ Left  ☐ Right
+
 | Run # | Direction | Total Time (beep→2nd shot) | Transition Split (shot 1→shot 2) |
 |-------|-----------|----------------------------|-----------------------------------|
 | 1 | | | |

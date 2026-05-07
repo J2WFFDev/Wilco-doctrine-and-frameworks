@@ -167,11 +167,12 @@ This reveals whether body geometry, stance orientation, or dominant-side mechani
 
 ### Procedure
 
-1. Athlete aims at the far-left target, finger on trigger, firearm ready
-2. On beep, fire one round at the far-left target, immediately transition to the far-right target, fire one round
-3. Record the total time from beep to second shot break; record the split time from the 1st shot to the 2nd shot as the **Inter-Target Transition Time (ITT)**
-4. Repeat 5 runs in this direction; average the results
-5. Reverse: start aimed at far-right target, transition left; repeat 5 runs; average
+1. Randomize the starting direction for the sequence (Left or Right) and record which direction started first
+2. Athlete aims at the selected starting-side target, finger on trigger, firearm ready
+3. On beep, fire one round at the starting target, immediately transition to the far target, and fire one round
+4. Record the total time from beep to second shot break; record the split time from the 1st shot to the 2nd shot as the **Inter-Target Transition Time (ITT)**
+5. Complete 10 total runs: 5 L→R and 5 R→L
+6. Average by direction and overall
 - Note body positions and form
 
 > **Note on accuracy:** Hits are not required for this test. The athlete should fire in the general direction of each target. The purpose is speed measurement only. If accuracy significantly degrades, note it — it may indicate the athlete is pushing beyond a controlled threshold.
